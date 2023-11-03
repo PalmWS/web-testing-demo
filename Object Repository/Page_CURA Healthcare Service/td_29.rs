@@ -7,7 +7,6 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>9ec00df3-7759-42ce-9cb8-48582509f4e3</webElementGuid>
+      <webElementGuid>afbed228-c489-4328-a38c-7b02744a7293</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>day</value>
-      <webElementGuid>35f09939-9949-473f-bf1f-8eac3ea74529</webElementGuid>
+      <webElementGuid>ff7cba41-0db0-43f5-b48a-f1f0c7a8e52d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>29</value>
-      <webElementGuid>391ed9bd-dda0-4d5b-9c13-489d3e46cb2f</webElementGuid>
+      <webElementGuid>a9ea3a00-9167-495d-811d-5ce0f772fa90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top&quot;]/div[@class=&quot;datepicker-days&quot;]/table[@class=&quot;table-condensed&quot;]/tbody[1]/tr[5]/td[@class=&quot;day&quot;]</value>
-      <webElementGuid>cceef81d-e3e4-45a6-978a-97fb2f13185f</webElementGuid>
+      <webElementGuid>c18ecbd3-be22-4df8-8540-b90f00b12eda</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[32]</value>
-      <webElementGuid>2eb031bf-0fbd-4801-bb25-8d8b0a696e99</webElementGuid>
+      <webElementGuid>6ed5898c-0394-40d1-86aa-cc5b8f01b6a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[1]/following::td[32]</value>
-      <webElementGuid>7f259b90-71fb-4726-8e19-aa7f26334da4</webElementGuid>
+      <webElementGuid>2cc3155c-9a82-49dd-8210-046d6ae2e497</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/preceding::td[11]</value>
-      <webElementGuid>515c8a69-84ee-4247-a78f-e22d160ae837</webElementGuid>
+      <webElementGuid>4d68961f-d7bb-4908-892f-58ed263d3f4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/preceding::td[11]</value>
-      <webElementGuid>8e6637c2-9363-47e9-851e-e57f386a749a</webElementGuid>
+      <webElementGuid>5695cf0d-4b94-4b00-bb9a-7c1fe502e5cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td[4]</value>
-      <webElementGuid>64124aec-9412-47c2-9cc9-9463ba43f6e0</webElementGuid>
+      <webElementGuid>08396e88-8814-4004-afc6-f8c93ba6170e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '29' or . = '29')]</value>
-      <webElementGuid>d2157001-fa9b-45fd-95ef-d292d7fbfc0c</webElementGuid>
+      <webElementGuid>c7d7006f-06d0-48fc-9adc-bb12dcd3aa81</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
