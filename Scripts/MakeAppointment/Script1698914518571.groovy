@@ -19,15 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+CustomKeywords.'example.MyKeywords.AppLogin'()
 
 for (def n : (0..2)) {
     WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Make Appointment'), 'Make Appointment')
@@ -43,10 +35,12 @@ for (def n : (0..2)) {
         WebUI.delay(1)
     } else if (n == 1) {
         WebUI.click(findTestObject('Page_CURA Healthcare Service/input_Medicare_programs'))
-		WebUI.delay(1)
+
+        WebUI.delay(1)
     } else {
         WebUI.click(findTestObject('Page_CURA Healthcare Service/input_None_programs'))
-		WebUI.delay(1)
+
+        WebUI.delay(1)
     }
     
     WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'))
@@ -63,6 +57,8 @@ for (def n : (0..2)) {
         'Appointment Confirmation')
 
     WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Go to Homepage'))
+
+    CustomKeywords.'example.MyKeywords.Congrats'('')
 }
 
 WebUI.closeBrowser()
