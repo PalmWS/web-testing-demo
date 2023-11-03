@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>a_View cart</name>
    <tag></tag>
-   <elementGuidId>f48aebaa-8c50-460e-b74b-2fba76261fec</elementGuidId>
+   <elementGuidId>71fe91f8-4c98-4e24-8667-8651fd456a72</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#btn-login</value>
+         <value>a.button.wc-forward</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btn-login']</value>
+         <value>//main[@id='main']/div/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,111 +21,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>51c79f1b-24d0-4e5a-b3ae-a3d37ca0e0eb</webElementGuid>
+      <value>a</value>
+      <webElementGuid>9a3ff823-d302-4e03-b7fa-0697be183fbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>href</name>
       <type>Main</type>
-      <value>btn-login</value>
-      <webElementGuid>45cc764e-745e-4f04-8636-23fe01b92df1</webElementGuid>
+      <value>https://cms.demo.katalon.com/cart/</value>
+      <webElementGuid>4b08a2c5-353a-4e2c-b08a-1ad778ba2596</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>ce23bda3-e173-47cd-b408-fece502c8c6e</webElementGuid>
+      <value>1</value>
+      <webElementGuid>1bbbf4b0-9c3e-4f3c-8ecf-5ce964dc797c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-default</value>
-      <webElementGuid>77390923-28bd-483c-8014-3392955a85ed</webElementGuid>
+      <value>button wc-forward</value>
+      <webElementGuid>34d423a9-8cfa-4126-8f02-b6bbcc443c54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>0358e63e-33ef-4794-a2b3-c5fc98e82ade</webElementGuid>
+      <value>View cart</value>
+      <webElementGuid>ddb5e6e6-56a1-4ff7-9bb0-cc2459b710c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btn-login&quot;)</value>
-      <webElementGuid>ce08f298-503f-454c-bc4c-9f70332bdc83</webElementGuid>
+      <value>id(&quot;main&quot;)/div[@class=&quot;woocommerce-notices-wrapper&quot;]/div[@class=&quot;woocommerce-message&quot;]/a[@class=&quot;button wc-forward&quot;]</value>
+      <webElementGuid>a431ef8d-cb06-4031-9a9d-44fd7749acd3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='btn-login']</value>
-      <webElementGuid>8042ea25-2c95-4b40-b70e-c875c4b3f631</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div[4]/div/button</value>
-      <webElementGuid>8a8ac417-6b55-4c71-bad5-a9bdcfe7fa7b</webElementGuid>
+      <value>//main[@id='main']/div/div/a</value>
+      <webElementGuid>f71d3fc6-d897-48b3-8776-6a85112a69cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'View cart')]</value>
+      <webElementGuid>6add9d74-3ac6-489d-bdae-6eca903f422b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>d81a6e9a-3787-4868-aca6-988c38453a17</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hoodies'])[1]/following::a[1]</value>
+      <webElementGuid>cdd29509-cd45-4bdd-91a7-9dc01e5e9265</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
-      <webElementGuid>7954658d-3def-414d-b75e-115699d366e7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Happy Ninja'])[1]/preceding::a[4]</value>
+      <webElementGuid>56fa2f36-f440-4679-be70-791b7917be3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::button[1]</value>
-      <webElementGuid>ed87c469-fb2a-46cc-827e-9f80085f1dac</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[1]/preceding::a[4]</value>
+      <webElementGuid>eaf47ee2-8437-4c23-89db-0efba18fe88a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/preceding::button[1]</value>
-      <webElementGuid>4b81a7ca-1352-4463-9dc8-f3d1abfdd611</webElementGuid>
+      <value>//*/text()[normalize-space(.)='View cart']/parent::*</value>
+      <webElementGuid>de7cd566-4a94-4ddf-8d55-e450cf8bbb54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://cms.demo.katalon.com/cart/')])[2]</value>
+      <webElementGuid>c3629f0f-35d9-4343-9184-b5666fcf6dd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>cefdad36-4b74-4ab7-afed-d0a2caf2ad1d</webElementGuid>
+      <value>//main/div/div/a</value>
+      <webElementGuid>9671a1c9-33a1-42be-b514-da609540774c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'btn-login' and @type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>ac629f69-bd7c-454c-943c-be6bef5c4fc9</webElementGuid>
+      <value>//a[@href = 'https://cms.demo.katalon.com/cart/' and (text() = 'View cart' or . = 'View cart')]</value>
+      <webElementGuid>8449d3e6-8ad3-4f81-ba8b-c1ec203f39d6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

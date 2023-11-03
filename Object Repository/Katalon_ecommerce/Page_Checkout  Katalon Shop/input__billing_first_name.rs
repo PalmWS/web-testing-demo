@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_password</name>
+   <name>input__billing_first_name</name>
    <tag></tag>
-   <elementGuidId>6c1ef6b3-dbd9-4991-b495-aa116370abe3</elementGuidId>
+   <elementGuidId>630f32e3-c3cc-4b41-b969-6cba67e9ce88</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#txt-password</value>
+         <value>#billing_first_name</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='txt-password']</value>
+         <value>//input[@id='billing_first_name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,94 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3d351456-6382-4e3b-9ea4-ff36ae7e772a</webElementGuid>
+      <webElementGuid>8d47a7fe-81c3-4073-a97f-67beb7a367dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>c5166e99-1605-4e1a-b5d4-1849dbe88fd9</webElementGuid>
+      <value>text</value>
+      <webElementGuid>05c766ad-611c-4171-8541-10581d9e5edd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>03e74abe-d5c8-4cfe-a719-b24b90a7d051</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>txt-password</value>
-      <webElementGuid>30e3f99f-5951-4e92-8861-40df9a37d40a</webElementGuid>
+      <value>input-text </value>
+      <webElementGuid>d9b89a0f-f54f-49da-a90d-1774650b4f4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>52406be7-d9a6-416d-9de4-eeea6ab0fb41</webElementGuid>
+      <value>billing_first_name</value>
+      <webElementGuid>ace417ae-32aa-4186-8fc7-0400271d58f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>dbe2e1e7-3e3a-4627-944d-153e89438165</webElementGuid>
+      <value>billing_first_name</value>
+      <webElementGuid>88cf401f-3ee1-45be-9612-a5663ac5bfa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>katalon</value>
+      <webElementGuid>571099fb-d958-4104-b215-1a7380a10089</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>off</value>
-      <webElementGuid>9a9ff98f-0021-4485-85b1-404d647411ec</webElementGuid>
+      <value>given-name</value>
+      <webElementGuid>d47e7152-6ab6-4aee-b9fc-9ba0735969b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt-password&quot;)</value>
-      <webElementGuid>0cd16242-66c6-4daa-ae95-3e021b4be5fd</webElementGuid>
+      <value>id(&quot;billing_first_name&quot;)</value>
+      <webElementGuid>9016e8e3-b8ce-4f4a-b79f-bdc8911a7c87</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txt-password']</value>
-      <webElementGuid>eab63c40-463f-49d0-bf86-77c109e3b2c5</webElementGuid>
+      <value>//input[@id='billing_first_name']</value>
+      <webElementGuid>f390181b-cc9d-4a99-a7df-fd843b9b6087</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div[3]/div/input</value>
-      <webElementGuid>1d83b595-ce7b-4347-b646-fa4c4abf1748</webElementGuid>
+      <value>//p[@id='billing_first_name_field']/span/input</value>
+      <webElementGuid>8ff8a26a-6eaa-47e7-b5fe-5b8bce215904</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/input</value>
-      <webElementGuid>c3afca96-325a-4f18-aa2f-1febe97bea0d</webElementGuid>
+      <value>//span/input</value>
+      <webElementGuid>f8501d48-b90f-4e9f-b91f-3acdc64377ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @id = 'txt-password' and @name = 'password' and @placeholder = 'Password']</value>
-      <webElementGuid>e344f0f1-655f-4921-9c69-106c8528a480</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'billing_first_name' and @id = 'billing_first_name']</value>
+      <webElementGuid>fcd0b227-9004-4f73-bc1c-c5e4df817dd7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

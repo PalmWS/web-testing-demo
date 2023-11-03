@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Make Appointment</name>
+   <name>a_Proceed to checkout</name>
    <tag></tag>
-   <elementGuidId>8f836b8d-9c8e-4102-9307-0d6207f1a8f5</elementGuidId>
+   <elementGuidId>342c5409-bdcc-4680-ba3c-17655c4e0898</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#btn-make-appointment</value>
+         <value>a.checkout-button.button.alt.wc-forward</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='btn-make-appointment']</value>
+         <value>//article[@id='post-8']/div/div/div[2]/div[2]/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,134 +22,121 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>aff1edfc-ceba-45bb-802f-14160ad3b95c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btn-make-appointment</value>
-      <webElementGuid>d236e525-ebb7-4f65-b75b-dd20a813cca2</webElementGuid>
+      <webElementGuid>2ecfb20c-808e-4ce9-a8fa-a8926a64f91b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>./profile.php#login</value>
-      <webElementGuid>89798dd1-d2c5-4d20-94db-914d4963358e</webElementGuid>
+      <value>https://cms.demo.katalon.com/checkout/</value>
+      <webElementGuid>48aedc78-6e88-4ae6-86f3-81b9a9a2f00c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-dark btn-lg</value>
-      <webElementGuid>5c8ec93f-3ab2-41bf-b2cf-15de9e1a4f85</webElementGuid>
+      <value>checkout-button button alt wc-forward</value>
+      <webElementGuid>f163c0bf-f4fe-4b3c-a021-1a6928846de3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Make Appointment</value>
-      <webElementGuid>cd1fc4b0-b4d1-484a-aabf-2df3d8ea9596</webElementGuid>
+      <value>
+	Proceed to checkout</value>
+      <webElementGuid>554c40ca-de41-4245-9423-5fff0fd0946b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btn-make-appointment&quot;)</value>
-      <webElementGuid>871a4fb9-6124-4692-8aed-2080a6b2d25e</webElementGuid>
+      <value>id(&quot;post-8&quot;)/div[@class=&quot;entry-content&quot;]/div[@class=&quot;woocommerce&quot;]/div[@class=&quot;cart-collaterals&quot;]/div[@class=&quot;cart_totals&quot;]/div[@class=&quot;wc-proceed-to-checkout&quot;]/a[@class=&quot;checkout-button button alt wc-forward&quot;]</value>
+      <webElementGuid>f99b87b8-bef8-470c-abe0-1ae40e35bf0d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='btn-make-appointment']</value>
-      <webElementGuid>43718ff4-6c5c-400b-9f27-bb48c7348690</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//header[@id='top']/div/a</value>
-      <webElementGuid>18d8aabc-958b-4244-a184-2b344ca5de3f</webElementGuid>
+      <value>//article[@id='post-8']/div/div/div[2]/div[2]/div/a</value>
+      <webElementGuid>2fba79ad-e3d7-44bd-8f16-c374801db44e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Make Appointment')]</value>
-      <webElementGuid>08d51dc1-58c2-4d13-acd4-09906f43ebe2</webElementGuid>
+      <value>//a[contains(text(),'Proceed to checkout')]</value>
+      <webElementGuid>b1213eb7-3bd0-40b2-84eb-f36cd47e3f67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/following::a[1]</value>
-      <webElementGuid>4a01a1e1-53e7-498a-a29d-a17af70e3cf5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[6]/following::a[1]</value>
+      <webElementGuid>32d6a14f-2d0b-4ecd-bdac-ea47d69d057b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[2]/following::a[1]</value>
-      <webElementGuid>9a3822db-2c65-42c9-ad28-c62d74ff8a02</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[2]/following::a[1]</value>
+      <webElementGuid>492c74af-bc31-4fcc-954c-7e8af2047b04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/preceding::a[1]</value>
-      <webElementGuid>8bfa76ae-6b15-4f49-ad62-a4dfc8d34115</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search for:'])[1]/preceding::a[1]</value>
+      <webElementGuid>1bd3d82d-6c95-4175-b173-b80571797274</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/preceding::a[1]</value>
-      <webElementGuid>2d49050e-8ea5-481c-a7c9-39ea1f89f4f3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::a[1]</value>
+      <webElementGuid>f73063b4-0d2e-4aae-9c09-7b893ece6339</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Make Appointment']/parent::*</value>
-      <webElementGuid>97fbec2b-f047-4d23-bb39-68035e76af6b</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Proceed to checkout']/parent::*</value>
+      <webElementGuid>4fdd2888-b42b-4e42-a89f-b4c3324affba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, './profile.php#login')]</value>
-      <webElementGuid>11d27377-7cb9-48fb-ad22-0f60a4194a3d</webElementGuid>
+      <value>(//a[contains(@href, 'https://cms.demo.katalon.com/checkout/')])[2]</value>
+      <webElementGuid>cd75ed6b-988c-4f65-8cdd-305eefe0a96a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/a</value>
-      <webElementGuid>89a9cd05-cbab-4f08-94ed-98ef2702e24c</webElementGuid>
+      <value>//div[2]/div/a</value>
+      <webElementGuid>8496a6c7-d7b5-4d49-bc9a-e6fadc298373</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'btn-make-appointment' and @href = './profile.php#login' and (text() = 'Make Appointment' or . = 'Make Appointment')]</value>
-      <webElementGuid>f0f426e3-e0af-4223-9f24-f3545779e022</webElementGuid>
+      <value>//a[@href = 'https://cms.demo.katalon.com/checkout/' and (text() = '
+	Proceed to checkout' or . = '
+	Proceed to checkout')]</value>
+      <webElementGuid>1b52ccf7-4215-401e-b816-fd26e5960725</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

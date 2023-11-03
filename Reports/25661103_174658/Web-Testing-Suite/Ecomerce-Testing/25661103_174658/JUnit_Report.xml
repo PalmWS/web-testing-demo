@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ecomerce-Testing" time="94.53" tests="3" failures="0" errors="0">
+   <testsuite name="Ecomerce-Testing" tests="3" failures="0" errors="0" time="94.53" skipped="0" timestamp="2566-11-03 17:47:07" hostname="Wisanu - GA006556-Wisanu" id="Test Suites/Web-Testing-Suite/Ecomerce-Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\web-testing-demo\\Reports\\25661103_174658\\Web-Testing-Suite\\Ecomerce-Testing\\25661103_174658"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\web-testing-demo\\Reports\\25661103_174658\\Web-Testing-Suite\\Ecomerce-Testing\\25661103_174658\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Wisanu - GA006556-Wisanu"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="6999f6a1c5adf92530432fb6555d82ad"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo" time="19.547" classname="Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo" status="PASSED">
+         <system-out><![CDATA[2566-11-03 17:47:08 - [TEST_CASE][PASSED] - Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo: Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo
+
+2566-11-03 17:47:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-03 17:47:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-03 17:47:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-03 17:47:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-03 17:47:12 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/"): Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2566-11-03 17:47:18 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2566-11-03 17:47:18 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2566-11-03 17:47:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2566-11-03 17:47:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/menu_My account")): Object: 'Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/menu_My account' is clicked on
+
+2566-11-03 17:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/menu_My account' is clicked on
+
+2566-11-03 17:47:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__username"), "customer"): Text 'customer' is set on object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__username'
+
+2566-11-03 17:47:23 - [MESSAGE][PASSED] - Text 'customer' is set on object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__username'
+
+2566-11-03 17:47:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__password"), "fcttOx1e+dws0mP0AWb2uMRTnZbRfS0W"): Text ****** has been set on object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__password'
+
+2566-11-03 17:47:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__password'
+
+2566-11-03 17:47:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2566-11-03 17:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2566-11-03 17:47:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/loggedIn_username"), "KatalonLover"): Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/loggedIn_username' are matched.
+
+2566-11-03 17:47:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/loggedIn_username' are matched.
+
+2566-11-03 17:47:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/nav_my_Homepage")): Object: 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/nav_my_Homepage' is clicked on
+
+2566-11-03 17:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/nav_my_Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web-Testing/Katalon_Ecommerce/Add-Cart" time="32.766" classname="Test Cases/Web-Testing/Katalon_Ecommerce/Add-Cart" status="PASSED">
+         <system-out><![CDATA[2566-11-03 17:47:27 - [TEST_CASE][PASSED] - Test Cases/Web-Testing/Katalon_Ecommerce/Add-Cart: Test Cases/Web-Testing/Katalon_Ecommerce/Add-Cart
+
+2566-11-03 17:47:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web-Testing/Katalon_Ecommerce/Login-Shop-Demo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo' successfully
+
+2566-11-03 17:47:28 - [TEST_CASE][PASSED] - Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo: Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo
+
+2566-11-03 17:47:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-03 17:47:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2566-11-03 17:47:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-03 17:47:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-03 17:47:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-03 17:47:31 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/"): Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2566-11-03 17:47:39 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2566-11-03 17:47:39 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2566-11-03 17:47:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2566-11-03 17:47:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/menu_My account")): Object: 'Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/menu_My account' is clicked on
+
+2566-11-03 17:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/menu_My account' is clicked on
+
+2566-11-03 17:47:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__username"), "customer"): Text 'customer' is set on object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__username'
+
+2566-11-03 17:47:42 - [MESSAGE][PASSED] - Text 'customer' is set on object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__username'
+
+2566-11-03 17:47:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__password"), "fcttOx1e+dws0mP0AWb2uMRTnZbRfS0W"): Text ****** has been set on object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__password'
+
+2566-11-03 17:47:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__password'
+
+2566-11-03 17:47:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2566-11-03 17:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2566-11-03 17:47:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/loggedIn_username"), "KatalonLover"): Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/loggedIn_username' are matched.
+
+2566-11-03 17:47:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/loggedIn_username' are matched.
+
+2566-11-03 17:47:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/nav_my_Homepage")): Object: 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/nav_my_Homepage' is clicked on
+
+2566-11-03 17:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/nav_my_Homepage' is clicked on
+
+2566-11-03 17:47:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo' successfully
+
+2566-11-03 17:47:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-_5f269b")): Object: 'Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-_5f269b' is clicked on
+
+2566-11-03 17:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-_5f269b' is clicked on
+
+2566-11-03 17:47:53 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/product/happy-ninja/"): Navigate to 'https://cms.demo.katalon.com/product/happy-ninja/' successfully
+
+2566-11-03 17:47:55 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/product/happy-ninja/' successfully
+
+2566-11-03 17:47:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_Happy Ninja  Katalon Shop/button_Add to cart")): Object: 'Object Repository/Katalon_ecommerce/Page_Happy Ninja  Katalon Shop/button_Add to cart' is clicked on
+
+2566-11-03 17:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_Happy Ninja  Katalon Shop/button_Add to cart' is clicked on
+
+2566-11-03 17:47:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_Happy Ninja  Katalon Shop/a_View cart")): Object: 'Object Repository/Katalon_ecommerce/Page_Happy Ninja  Katalon Shop/a_View cart' is clicked on
+
+2566-11-03 17:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_Happy Ninja  Katalon Shop/a_View cart' is clicked on
+
+2566-11-03 17:47:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/h1_Cart"), "Cart"): Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/h1_Cart' are matched.
+
+2566-11-03 17:48:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/h1_Cart' are matched.
+
+2566-11-03 17:48:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/a_Happy Ninja"), "Happy Ninja"): Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/a_Happy Ninja' are matched.
+
+2566-11-03 17:48:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/a_Happy Ninja' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web-Testing/Katalon_Ecommerce/Checkout" time="41.754" classname="Test Cases/Web-Testing/Katalon_Ecommerce/Checkout" status="PASSED">
+         <system-out><![CDATA[2566-11-03 17:48:00 - [TEST_CASE][PASSED] - Test Cases/Web-Testing/Katalon_Ecommerce/Checkout: Test Cases/Web-Testing/Katalon_Ecommerce/Checkout
+
+2566-11-03 17:48:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web-Testing/Katalon_Ecommerce/Add-Cart"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web-Testing/Katalon_Ecommerce/Add-Cart' successfully
+
+2566-11-03 17:48:00 - [TEST_CASE][PASSED] - Test Cases/Web-Testing/Katalon_Ecommerce/Add-Cart: Test Cases/Web-Testing/Katalon_Ecommerce/Add-Cart
+
+2566-11-03 17:48:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Web-Testing/Katalon_Ecommerce/Login-Shop-Demo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo' successfully
+
+2566-11-03 17:48:01 - [TEST_CASE][PASSED] - Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo: Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo
+
+2566-11-03 17:48:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-03 17:48:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2566-11-03 17:48:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-03 17:48:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-03 17:48:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-03 17:48:03 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/"): Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2566-11-03 17:48:08 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/' successfully
+
+2566-11-03 17:48:08 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2566-11-03 17:48:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2566-11-03 17:48:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/menu_My account")): Object: 'Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/menu_My account' is clicked on
+
+2566-11-03 17:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/menu_My account' is clicked on
+
+2566-11-03 17:48:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__username"), "customer"): Text 'customer' is set on object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__username'
+
+2566-11-03 17:48:12 - [MESSAGE][PASSED] - Text 'customer' is set on object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__username'
+
+2566-11-03 17:48:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__password"), "fcttOx1e+dws0mP0AWb2uMRTnZbRfS0W"): Text ****** has been set on object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__password'
+
+2566-11-03 17:48:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/input__password'
+
+2566-11-03 17:48:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/button_Log in")): Object: 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2566-11-03 17:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/button_Log in' is clicked on
+
+2566-11-03 17:48:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/loggedIn_username"), "KatalonLover"): Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/loggedIn_username' are matched.
+
+2566-11-03 17:48:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/loggedIn_username' are matched.
+
+2566-11-03 17:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/nav_my_Homepage")): Object: 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/nav_my_Homepage' is clicked on
+
+2566-11-03 17:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_My account  Katalon Shop/nav_my_Homepage' is clicked on
+
+2566-11-03 17:48:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo' successfully
+
+2566-11-03 17:48:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-_5f269b")): Object: 'Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-_5f269b' is clicked on
+
+2566-11-03 17:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_Katalon Shop  Katalon Ecommerce/img__attachment-woocommerce_thumbnail size-_5f269b' is clicked on
+
+2566-11-03 17:48:21 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/product/happy-ninja/"): Navigate to 'https://cms.demo.katalon.com/product/happy-ninja/' successfully
+
+2566-11-03 17:48:24 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/product/happy-ninja/' successfully
+
+2566-11-03 17:48:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_Happy Ninja  Katalon Shop/button_Add to cart")): Object: 'Object Repository/Katalon_ecommerce/Page_Happy Ninja  Katalon Shop/button_Add to cart' is clicked on
+
+2566-11-03 17:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_Happy Ninja  Katalon Shop/button_Add to cart' is clicked on
+
+2566-11-03 17:48:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_Happy Ninja  Katalon Shop/a_View cart")): Object: 'Object Repository/Katalon_ecommerce/Page_Happy Ninja  Katalon Shop/a_View cart' is clicked on
+
+2566-11-03 17:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_Happy Ninja  Katalon Shop/a_View cart' is clicked on
+
+2566-11-03 17:48:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/h1_Cart"), "Cart"): Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/h1_Cart' are matched.
+
+2566-11-03 17:48:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/h1_Cart' are matched.
+
+2566-11-03 17:48:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/a_Happy Ninja"), "Happy Ninja"): Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/a_Happy Ninja' are matched.
+
+2566-11-03 17:48:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/a_Happy Ninja' are matched.
+
+2566-11-03 17:48:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Web-Testing/Katalon_Ecommerce/Add-Cart' successfully
+
+2566-11-03 17:48:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout")): Object: 'Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout' is clicked on
+
+2566-11-03 17:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_Cart  Katalon Shop/a_Proceed to checkout' is clicked on
+
+2566-11-03 17:48:32 - [TEST_STEP][PASSED] - navigateToUrl("https://cms.demo.katalon.com/checkout/"): Navigate to 'https://cms.demo.katalon.com/checkout/' successfully
+
+2566-11-03 17:48:33 - [MESSAGE][PASSED] - Navigate to 'https://cms.demo.katalon.com/checkout/' successfully
+
+2566-11-03 17:48:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/h1_Checkout"), "Checkout"): Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/h1_Checkout' are matched.
+
+2566-11-03 17:48:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/h1_Checkout' are matched.
+
+2566-11-03 17:48:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/input__billing_first_name"), "Katalon"): Text 'Katalon' is set on object 'Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/input__billing_first_name'
+
+2566-11-03 17:48:35 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/input__billing_first_name'
+
+2566-11-03 17:48:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/input__billing_last_name"), "Customer"): Text 'Customer' is set on object 'Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/input__billing_last_name'
+
+2566-11-03 17:48:36 - [MESSAGE][PASSED] - Text 'Customer' is set on object 'Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/input__billing_last_name'
+
+2566-11-03 17:48:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/button_Place order")): Object: 'Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/button_Place order' is clicked on
+
+2566-11-03 17:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/button_Place order' is clicked on
+
+2566-11-03 17:48:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/p_Thank you. Your order has been received"), "Thank you. Your order has been received."): Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/p_Thank you. Your order has been received' are matched.
+
+2566-11-03 17:48:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Katalon_ecommerce/Page_Checkout  Katalon Shop/p_Thank you. Your order has been received' are matched.
+
+2566-11-03 17:48:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-11-03 17:48:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2566-11-03 17:47:07 - [TEST_SUITE][PASSED] - Ecomerce-Testing: Test Cases/Web-Testing/Katalon_Ecommerce/Checkout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
