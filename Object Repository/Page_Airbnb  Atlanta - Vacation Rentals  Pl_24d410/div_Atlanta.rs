@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Atlanta</name>
+   <tag></tag>
+   <elementGuidId>a2056821-bf07-4ece-8ce3-8db1c5c2a083</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.f16sug5q.dir.dir-ltr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Location'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b9c3a4d4-f86f-4b7c-bbc1-4ebcae8c62b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>f16sug5q dir dir-ltr</value>
+      <webElementGuid>9fc0f70c-6159-42e9-818d-c1ab6416249c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Atlanta</value>
+      <webElementGuid>ff1ee25d-e5b5-46ee-a6a2-284440b1ed21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scrollbar-gutter js-focus-visible dir native v1oc6b3k vgnbcm1 v1agkal2 vqw89vp vlugpmm g5l85gq&quot;]/body[@class=&quot;with-new-header&quot;]/div[5]/div[1]/div[@class=&quot;t1bgcr6e&quot;]/div[1]/div[1]/div[@class=&quot;c13hltkk cslie43 dir dir-ltr&quot;]/div[@class=&quot;h1tbcuzf dir dir-ltr&quot;]/div[@class=&quot;c1yo0219 dir dir-ltr&quot;]/div[1]/div[@class=&quot;dir dir-ltr&quot;]/header[@class=&quot;curo97c c121bpov dir dir-ltr&quot;]/div[@class=&quot;c1s03i8x c10r4nlz dir dir-ltr&quot;]/div[@class=&quot;c1ujpdn9 dir dir-ltr&quot;]/div[@class=&quot;l1sjr04j l1x4ovsg llb1jct lc9d3st dir dir-ltr&quot;]/div[@class=&quot;chgx2vp dir dir-ltr&quot;]/span[@class=&quot;ieg7dag dir dir-ltr&quot;]/button[@class=&quot;ffgcxut dir dir-ltr&quot;]/div[@class=&quot;f16sug5q dir dir-ltr&quot;]</value>
+      <webElementGuid>09a4b818-e4ec-4c72-8bb5-3ac8b21bd3ad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location'])[1]/following::div[1]</value>
+      <webElementGuid>af350863-287d-40cf-8d09-4a6b497f760b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start your search'])[1]/following::div[1]</value>
+      <webElementGuid>42faa5a1-dc65-4769-bd8c-549f4a29f13c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check in / Check out'])[1]/preceding::div[1]</value>
+      <webElementGuid>a0827b26-c7c3-4050-970c-9aabd521d46a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dec 1 – 3'])[1]/preceding::div[1]</value>
+      <webElementGuid>cb2980d8-942d-43c6-8fbb-8b4fbfa33fdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Atlanta']/parent::*</value>
+      <webElementGuid>4b9e03df-6c0d-4a51-b7ed-26452968cc86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div</value>
+      <webElementGuid>3db57d88-55d4-4946-a107-b2f583cef38f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Atlanta' or . = 'Atlanta')]</value>
+      <webElementGuid>9f83c031-4555-4ab0-bae5-4f5fe6cc7ade</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

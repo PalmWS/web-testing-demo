@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Find-different-place</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>b66d9653-53b2-4a39-9273-f9d06f41509d</testSuiteGuid>
+   <testCaseLink>
+      <guid>61c35600-4656-407d-8d71-4c92f20c2fc8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Data-Driven Testing/Find a place with data</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4557663f-f12c-4ac3-92f2-5f29e504342b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/100 cities</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4557663f-f12c-4ac3-92f2-5f29e504342b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>city</value>
+         <variableId>fd30f1de-1c3f-4ec6-9cd3-c73e51fe3c85</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4557663f-f12c-4ac3-92f2-5f29e504342b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>result</value>
+         <variableId>01edcfa7-83a7-4aad-9d45-c6057f7fcf40</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

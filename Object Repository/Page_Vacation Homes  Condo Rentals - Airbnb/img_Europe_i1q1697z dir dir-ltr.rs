@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Europe_i1q1697z dir dir-ltr</name>
+   <tag></tag>
+   <elementGuidId>a04fc3ec-e930-44bd-9866-d856f8c2b260</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='locationInspirationsSectionID']/div/div[3]/div/button/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>67dfca86-9b98-41d1-8d43-dc34af24c847</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>i1q1697z dir dir-ltr</value>
+      <webElementGuid>0f12ac4c-3ddd-40b4-a2c8-a131eca011d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://a0.muscache.com/im/pictures/26891a81-b9db-4a9c-8aab-63486b7e627c.jpg?im_w=320</value>
+      <webElementGuid>fb89602b-ffdd-4867-8749-20d66daabcc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;locationInspirationsSectionID&quot;)/div[@class=&quot;dt67efs dir dir-ltr&quot;]/div[@class=&quot;dn4fk8q dir dir-ltr&quot;]/div[@class=&quot;c4qk92z dir dir-ltr&quot;]/button[@class=&quot;c1y2gkhb dir dir-ltr&quot;]/img[@class=&quot;i1q1697z dir dir-ltr&quot;]</value>
+      <webElementGuid>f427e7cd-f3e6-4fd8-9d36-6544dfc32936</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='locationInspirationsSectionID']/div/div[3]/div/button/img</value>
+      <webElementGuid>0c633a87-2e19-456a-90d0-f4a68e808c63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://a0.muscache.com/im/pictures/26891a81-b9db-4a9c-8aab-63486b7e627c.jpg?im_w=320')]</value>
+      <webElementGuid>338858c6-b148-4029-bb1d-4bd3f1986d86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button/img</value>
+      <webElementGuid>24abb201-a3b2-4d82-a35c-7370c1f713dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://a0.muscache.com/im/pictures/26891a81-b9db-4a9c-8aab-63486b7e627c.jpg?im_w=320']</value>
+      <webElementGuid>5f404ba4-31c2-41fb-9fda-28c3ee899dc3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

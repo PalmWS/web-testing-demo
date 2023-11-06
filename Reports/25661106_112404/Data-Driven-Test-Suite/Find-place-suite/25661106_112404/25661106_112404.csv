@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Find-place-suite,Chrome 118.0.0.0,,,2566-11-06 11:24:14,2566-11-06 11:24:44,29.778s,PASSED
+,,,,,,,
+Test Cases/Data-Driven Testing/Find a place,Chrome 118.0.0.0,,,2566-11-06 11:24:15,2566-11-06 11:24:27,12.774s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2566-11-06 11:24:15,2566-11-06 11:24:18,3.116s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 118.0.0.0,,,2566-11-06 11:24:18,2566-11-06 11:24:20,1.939s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_Anywhere""))",Chrome 118.0.0.0,,,2566-11-06 11:24:20,2566-11-06 11:24:22,2.050s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/img_Europe_i1q1697z dir dir-ltr""))",Chrome 118.0.0.0,,,2566-11-06 11:24:22,2566-11-06 11:24:23,1.098s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_9""))",Chrome 118.0.0.0,,,2566-11-06 11:24:23,2566-11-06 11:24:24,0.729s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_7""))",Chrome 118.0.0.0,,,2566-11-06 11:24:24,2566-11-06 11:24:25,0.711s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_WhoAdd guests""))",Chrome 118.0.0.0,,,2566-11-06 11:24:25,2566-11-06 11:24:25,0.552s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/svg""))",Chrome 118.0.0.0,,,2566-11-06 11:24:25,2566-11-06 11:24:26,0.678s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr""))",Chrome 118.0.0.0,,,2566-11-06 11:24:26,2566-11-06 11:24:27,0.644s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2566-11-06 11:24:27,2566-11-06 11:24:27,0.895s,PASSED
+,,,,,,,
+Test Cases/Data-Driven Testing/Find a place with data,Chrome 118.0.0.0,,,2566-11-06 11:24:27,2566-11-06 11:24:44,16.732s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2566-11-06 11:24:28,2566-11-06 11:24:29,1.564s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 118.0.0.0,,,2566-11-06 11:24:29,2566-11-06 11:24:31,2.066s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_Anywhere""))",Chrome 118.0.0.0,,,2566-11-06 11:24:31,2566-11-06 11:24:33,1.728s,PASSED
+"setText(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/input_Where_query""), city)",Chrome 118.0.0.0,,,2566-11-06 11:24:33,2566-11-06 11:24:35,1.371s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_Add dates""))",Chrome 118.0.0.0,,,2566-11-06 11:24:35,2566-11-06 11:24:36,1.041s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_1""))",Chrome 118.0.0.0,,,2566-11-06 11:24:36,2566-11-06 11:24:36,0.775s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_3""))",Chrome 118.0.0.0,,,2566-11-06 11:24:36,2566-11-06 11:24:37,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_WhoAdd guests""))",Chrome 118.0.0.0,,,2566-11-06 11:24:37,2566-11-06 11:24:38,0.670s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/svg""))",Chrome 118.0.0.0,,,2566-11-06 11:24:38,2566-11-06 11:24:39,0.673s,PASSED
+"click(findTestObject(""Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr""))",Chrome 118.0.0.0,,,2566-11-06 11:24:39,2566-11-06 11:24:39,0.687s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Airbnb  Atlanta - Vacation Rentals  Pl_24d410/div_Atlanta""), expectedResult)",Chrome 118.0.0.0,,,2566-11-06 11:24:39,2566-11-06 11:24:43,3.853s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2566-11-06 11:24:43,2566-11-06 11:24:44,0.925s,PASSED

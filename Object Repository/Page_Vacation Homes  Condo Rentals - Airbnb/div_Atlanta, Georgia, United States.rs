@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Atlanta, Georgia, United States</name>
+   <tag></tag>
+   <elementGuidId>657d5845-514a-4b1f-82af-5efae221f020</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.tj1l9bw.atm_am_mu6cqg.atm_9s_1txwivl.atm_ar_1bp4okc.atm_fc_1h6ojuz.atm_c8_1l6y6xl.atm_g3_i7n6xh.atm_cs_atq67q.atm_7l_12u4tyr.dir.dir-ltr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bigsearch-query-location-suggestion-0']/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a325cf73-c48c-49ab-976d-174c1d64225d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tj1l9bw atm_am_mu6cqg atm_9s_1txwivl atm_ar_1bp4okc atm_fc_1h6ojuz atm_c8_1l6y6xl atm_g3_i7n6xh atm_cs_atq67q atm_7l_12u4tyr dir dir-ltr</value>
+      <webElementGuid>1469fa1d-2fce-43e5-8646-7c3ee8fa7fc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Atlanta, Georgia, United States</value>
+      <webElementGuid>06d88a7c-913c-4b91-b68e-d5007208eddb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bigsearch-query-location-suggestion-0&quot;)/div[@class=&quot;tj1l9bw atm_am_mu6cqg atm_9s_1txwivl atm_ar_1bp4okc atm_fc_1h6ojuz atm_c8_1l6y6xl atm_g3_i7n6xh atm_cs_atq67q atm_7l_12u4tyr dir dir-ltr&quot;]</value>
+      <webElementGuid>4b9a7ba4-2f6f-4eee-81ed-607df575fe08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bigsearch-query-location-suggestion-0']/div[2]</value>
+      <webElementGuid>eee36c35-5627-4165-a4e0-b07ba97ee3ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Where'])[1]/following::div[8]</value>
+      <webElementGuid>009f274b-7bca-4577-9a2f-d28457ae5083</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Online Experiences'])[1]/following::div[14]</value>
+      <webElementGuid>cd98121c-ced3-4775-98ad-8433882bd65c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hartsfield-Jackson Atlanta International Airport, College Park, Georgia, United States'])[1]/preceding::div[3]</value>
+      <webElementGuid>cb356bce-b20b-410f-a122-3d6cf5164c7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div/div[2]</value>
+      <webElementGuid>94611f90-e148-4646-a5ea-700c4c367d3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Atlanta, Georgia, United States' or . = 'Atlanta, Georgia, United States')]</value>
+      <webElementGuid>77a9d11a-1d84-46ac-a7c0-9858ddd8e8b7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

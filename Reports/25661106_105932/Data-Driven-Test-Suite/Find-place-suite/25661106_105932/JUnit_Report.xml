@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Find-place-suite" time="60.86" tests="2" failures="1" errors="0">
+   <testsuite name="Find-place-suite" tests="2" failures="1" errors="0" time="60.86" skipped="0" timestamp="2566-11-06 10:59:42" hostname="Wisanu - GA006556-Wisanu" id="Test Suites/Data-Driven-Test-Suite/Find-place-suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\web-testing-demo\\Reports\\25661106_105932\\Data-Driven-Test-Suite\\Find-place-suite\\25661106_105932"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\web-testing-demo\\Reports\\25661106_105932\\Data-Driven-Test-Suite\\Find-place-suite\\25661106_105932\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Admin\\git\\web-testing-demo\\Reports\\25661106_105932\\Data-Driven-Test-Suite\\Find-place-suite\\25661106_105932\\1699243224308.png"/>
+         <property name="hostName" value="Wisanu - GA006556-Wisanu"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="45ebea58ef6a94d1dffb78982ef120b2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Data-Driven Testing/Find a place" time="41.573" classname="Test Cases/Data-Driven Testing/Find a place" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Data-Driven Testing/Find a place FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Find a place.run(Find a place:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699243172080.run(TempTestSuite1699243172080.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr' located by '//div[@id='search-tabpanel']/div/div[5]/div/div[3]/button/span/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2566-11-06 10:59:42 - [TEST_CASE][FAILED] - Test Cases/Data-Driven Testing/Find a place: Test Cases/Data-Driven Testing/Find a place FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Find a place.run(Find a place:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699243172080.run(TempTestSuite1699243172080.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr' located by '//div[@id='search-tabpanel']/div/div[5]/div/div[3]/button/span/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2566-11-06 10:59:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-06 10:59:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-06 10:59:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-06 10:59:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-06 10:59:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.airbnb.com/"): Navigate to 'https://www.airbnb.com/' successfully
+
+2566-11-06 10:59:47 - [MESSAGE][PASSED] - Navigate to 'https://www.airbnb.com/' successfully
+
+2566-11-06 10:59:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_Anywhere")): Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_Anywhere' is clicked on
+
+2566-11-06 10:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_Anywhere' is clicked on
+
+2566-11-06 10:59:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/img_Europe_i1q1697z dir dir-ltr")): Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/img_Europe_i1q1697z dir dir-ltr' is clicked on
+
+2566-11-06 10:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/img_Europe_i1q1697z dir dir-ltr' is clicked on
+
+2566-11-06 10:59:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_9")): Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_9' is clicked on
+
+2566-11-06 10:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_9' is clicked on
+
+2566-11-06 10:59:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_7")): Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_7' is clicked on
+
+2566-11-06 10:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_7' is clicked on
+
+2566-11-06 10:59:52 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr")): Unable to click on object 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Find a place.run(Find a place:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699243172080.run(TempTestSuite1699243172080.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr' located by '//div[@id='search-tabpanel']/div/div[5]/div/div[3]/button/span/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1699240805580.run(Script1699240805580.groovy:32)
+	... 13 more
+)
+
+2566-11-06 11:00:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='search-tabpanel']/div/div[5]/div/div[3]/button/span/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2566-11-06 11:00:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Find a place.run(Find a place:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699243172080.run(TempTestSuite1699243172080.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr' located by '//div[@id='search-tabpanel']/div/div[5]/div/div[3]/button/span/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1699240805580.run(Script1699240805580.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Admin\\git\\web-testing-demo\\Reports\\25661106_105932\\Data-Driven-Test-Suite\\Find-place-suite\\25661106_105932\\1699243224308.png]]]]></system-out>
+         <system-err><![CDATA[2566-11-06 10:59:42 - [TEST_CASE][FAILED] - Test Cases/Data-Driven Testing/Find a place: Test Cases/Data-Driven Testing/Find a place FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Find a place.run(Find a place:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699243172080.run(TempTestSuite1699243172080.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr' located by '//div[@id='search-tabpanel']/div/div[5]/div/div[3]/button/span/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Data-Driven Testing/Find a place with data" time="18.999" classname="Test Cases/Data-Driven Testing/Find a place with data" status="PASSED">
+         <system-out><![CDATA[2566-11-06 11:00:24 - [TEST_CASE][PASSED] - Test Cases/Data-Driven Testing/Find a place with data: Test Cases/Data-Driven Testing/Find a place with data
+
+2566-11-06 11:00:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-06 11:00:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2566-11-06 11:00:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-06 11:00:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-06 11:00:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-06 11:00:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.airbnb.com/"): Navigate to 'https://www.airbnb.com/' successfully
+
+2566-11-06 11:00:29 - [MESSAGE][PASSED] - Navigate to 'https://www.airbnb.com/' successfully
+
+2566-11-06 11:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_Anywhere")): Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_Anywhere' is clicked on
+
+2566-11-06 11:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_Anywhere' is clicked on
+
+2566-11-06 11:00:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/input_Where_query"), city): Text 'Atlanta' is set on object 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/input_Where_query'
+
+2566-11-06 11:00:33 - [MESSAGE][PASSED] - Text 'Atlanta' is set on object 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/input_Where_query'
+
+2566-11-06 11:00:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_Add dates")): Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_Add dates' is clicked on
+
+2566-11-06 11:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_Add dates' is clicked on
+
+2566-11-06 11:00:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_1")): Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_1' is clicked on
+
+2566-11-06 11:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_1' is clicked on
+
+2566-11-06 11:00:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_3")): Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_3' is clicked on
+
+2566-11-06 11:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_3' is clicked on
+
+2566-11-06 11:00:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_WhoAdd guests")): Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_WhoAdd guests' is clicked on
+
+2566-11-06 11:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/div_WhoAdd guests' is clicked on
+
+2566-11-06 11:00:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/svg")): Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/svg' is clicked on
+
+2566-11-06 11:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/svg' is clicked on
+
+2566-11-06 11:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr")): Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr' is clicked on
+
+2566-11-06 11:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr' is clicked on
+
+2566-11-06 11:00:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Airbnb  Atlanta - Vacation Rentals  Pl_24d410/div_Atlanta"), expectedResult): Actual text and expected text of test object 'Object Repository/Page_Airbnb  Atlanta - Vacation Rentals  Pl_24d410/div_Atlanta' are matched.
+
+2566-11-06 11:00:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Airbnb  Atlanta - Vacation Rentals  Pl_24d410/div_Atlanta' are matched.
+
+2566-11-06 11:00:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-11-06 11:00:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2566-11-06 10:59:42 - [TEST_SUITE][FAILED] - Find-place-suite: Test Cases/Data-Driven Testing/Find a place FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Find a place.run(Find a place:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699243172080.run(TempTestSuite1699243172080.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr' located by '//div[@id='search-tabpanel']/div/div[5]/div/div[3]/button/span/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2566-11-06 10:59:42 - [TEST_SUITE][FAILED] - Find-place-suite: Test Cases/Data-Driven Testing/Find a place FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Find a place.run(Find a place:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1699243172080.run(TempTestSuite1699243172080.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Vacation Homes  Condo Rentals - Airbnb/span_Add guests_t1dqvypu dir dir-ltr' located by '//div[@id='search-tabpanel']/div/div[5]/div/div[3]/button/span/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
