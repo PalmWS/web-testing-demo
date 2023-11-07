@@ -1447,3 +1447,56 @@
   <escapedJava>false</escapedJava>
   <property name="dbServerInfo">Microsoft SQL Server 15.00.2104</property>
 </record>
+<record>
+  <date>2023-11-06T17:37:37</date>
+  <millis>1699267057305</millis>
+  <sequence>3359</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1347</thread>
+  <message>HAR: C:\Users\Admin\AppData\Local\Temp\har1589805480980726154\requests\ModalContext\0.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">536395e1-8618-48f4-8670-70cef534f223</property>
+</record>
+<record>
+  <date>2023-11-06T17:48:23</date>
+  <millis>1699267703724</millis>
+  <sequence>3360</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1471</thread>
+  <message>HAR: C:\Users\Admin\AppData\Local\Temp\har2085780764897491170\requests\ModalContext\1.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">eabb4d3d-efda-49c2-acd8-73899baa88a2</property>
+</record>
+<record>
+  <date>2023-11-06T17:49:12</date>
+  <millis>1699267752203</millis>
+  <sequence>3361</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1480</thread>
+  <message>HAR: C:\Users\Admin\AppData\Local\Temp\har5922358536439911272\requests\ModalContext\2.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">a8fd4a1b-3bbf-49b4-ae35-2d6f2c9d78e4</property>
+</record>
+<record>
+  <date>2023-11-06T17:50:06</date>
+  <millis>1699267806540</millis>
+  <sequence>3362</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1491</thread>
+  <message>HAR: C:\Users\Admin\AppData\Local\Temp\har7975581589168222146\requests\ModalContext\3.har</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">7af1e31f-5d7f-4d13-8ae0-c71e7dd1915f</property>
+</record>
+</log>
