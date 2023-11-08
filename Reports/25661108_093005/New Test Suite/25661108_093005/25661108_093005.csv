@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 118.0.0.0,,,2566-11-08 09:30:20,2566-11-08 09:30:29,8.927s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX05,Chrome 118.0.0.0,,,2566-11-08 09:30:20,2566-11-08 09:30:29,8.614s,FAILED
+"openBrowser("""")",Chrome 118.0.0.0,,,2566-11-08 09:30:20,2566-11-08 09:30:24,3.690s,PASSED
+"navigateToUrl(""D:\Katalon Training\Exercise - XParth\ex05.html"")",Chrome 118.0.0.0,,,2566-11-08 09:30:24,2566-11-08 09:30:24,0.184s,PASSED
+"setText(findTestObject(""Training-XPATH/EX05/username""), ""testuser"")",Chrome 118.0.0.0,,,2566-11-08 09:30:24,2566-11-08 09:30:25,0.963s,PASSED
+"setText(findTestObject(""Training-XPATH/EX05/password""), ""testpass"")",Chrome 118.0.0.0,,,2566-11-08 09:30:25,2566-11-08 09:30:26,0.822s,PASSED
+"setText(findTestObject(""Training-XPATH/EX05/nickname""), ""testnickname"")",Chrome 118.0.0.0,,,2566-11-08 09:30:26,2566-11-08 09:30:27,0.769s,PASSED
+"click(findTestObject(""Training-XPATH/EX05/Dropdown""))",Chrome 118.0.0.0,,,2566-11-08 09:30:27,2566-11-08 09:30:27,0.406s,PASSED
+"click(findTestObject(""Training-XPATH/EX05/Doppio""))",Chrome 118.0.0.0,,,2566-11-08 09:30:27,2566-11-08 09:30:28,0.351s,PASSED
+"click(findTestObject(""Training-XPATH/EX05/checkbox-Iamfine""))",Chrome 118.0.0.0,,,2566-11-08 09:30:28,2566-11-08 09:30:28,0.403s,PASSED
+"click(findTestObject(""Training-XPATH/EX05/finish-button""))",Chrome 118.0.0.0,,,2566-11-08 09:30:28,2566-11-08 09:30:28,0.347s,PASSED
+"takeScreenshot("""")",Chrome 118.0.0.0,,,2566-11-08 09:30:28,2566-11-08 09:30:29,0.249s,FAILED

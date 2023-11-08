@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ecomerce-Testing,,,,2566-11-08 10:45:03,2566-11-08 10:45:05,2.122s,FAILED
+,,,,,,,
+Test Cases/Web-Testing/Katalon_Ecommerce/Login-Shop-Demo,,,,2566-11-08 10:45:03,2566-11-08 10:45:04,0.835s,FAILED
+"openBrowser("""")",,,,2566-11-08 10:45:03,2566-11-08 10:45:04,0.491s,FAILED
+,,,,,,,
+Test Cases/Web-Testing/Katalon_Ecommerce/Add-Cart,,,,2566-11-08 10:45:04,2566-11-08 10:45:05,0.597s,FAILED
+"callTestCase(findTestCase(""Web-Testing/Katalon_Ecommerce/Login-Shop-Demo""), [:], STOP_ON_FAILURE)",,,,2566-11-08 10:45:04,2566-11-08 10:45:05,0.142s,FAILED
+,,,,,,,
+Test Cases/Web-Testing/Katalon_Ecommerce/Checkout,,,,2566-11-08 10:45:05,2566-11-08 10:45:05,0.420s,FAILED
+"callTestCase(findTestCase(""Web-Testing/Katalon_Ecommerce/Add-Cart""), [:], STOP_ON_FAILURE)",,,,2566-11-08 10:45:05,2566-11-08 10:45:05,0.164s,FAILED

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Appoint_System,,,,2566-11-08 10:43:02,2566-11-08 10:43:05,2.165s,FAILED
+,,,,,,,
+Test Cases/Web-Testing/Healthcare/Login,,,,2566-11-08 10:43:03,2566-11-08 10:43:03,0.879s,FAILED
+"openBrowser("""")",,,,2566-11-08 10:43:03,2566-11-08 10:43:03,0.505s,FAILED
+,,,,,,,
+Test Cases/Web-Testing/Healthcare/MakeAppointment,,,,2566-11-08 10:43:03,2566-11-08 10:43:04,0.533s,FAILED
+"openBrowser("""")",,,,2566-11-08 10:43:04,2566-11-08 10:43:04,0.031s,FAILED
+,,,,,,,
+Test Cases/Web-Testing/Healthcare/Login-with-variable,,,,2566-11-08 10:43:04,2566-11-08 10:43:05,0.479s,FAILED
+"openBrowser("""")",,,,2566-11-08 10:43:04,2566-11-08 10:43:04,0.008s,FAILED

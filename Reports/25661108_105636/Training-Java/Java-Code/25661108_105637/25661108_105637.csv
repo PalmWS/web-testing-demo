@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Java-Code,,,,2566-11-08 10:56:49,2566-11-08 10:56:53,3.412s,PASSED
+,,,,,,,
+Test Cases/Training-Java/Training-1,,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.405s,PASSED
+number = 10,,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.001s,PASSED
+"name = ""Palm""",,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+pi = 3.14,,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+"println(""Number = "" + number)",,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+"println(""Name = "" + name)",,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+"println(""pi ="" + pi)",,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+"strNumber = ""15""",,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+num = Integer.parseInt(strNumber),,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+println(TYPE),,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.013s,PASSED
+"println(""Number = "" + num)",,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+"obj = ""Hello""",,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+cls = obj.getClass(),,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+"println(""Type = "" + cls.getName())",,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+,,,,,,,
+Test Cases/Training-Java/Training-2-Condition,,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.332s,PASSED
+number = 5,,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.002s,PASSED
+if (number > 5),,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+else if (number == 5),,,,2566-11-08 10:56:50,2566-11-08 10:56:50,0.000s,PASSED
+,,,,,,,
+Test Cases/Training-Java/Training-3-ControlFlow,,,,2566-11-08 10:56:51,2566-11-08 10:56:51,0.398s,PASSED
+"for ([i = 0, i <= 3, (i++)])",,,,2566-11-08 10:56:51,2566-11-08 10:56:51,0.034s,PASSED
+i = 1,,,,2566-11-08 10:56:51,2566-11-08 10:56:51,0.000s,PASSED
+j = 1,,,,2566-11-08 10:56:51,2566-11-08 10:56:51,0.000s,PASSED
+"for ([<not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>, i <= 3 && j <= 5, (j++)])",,,,2566-11-08 10:56:51,2566-11-08 10:56:51,0.029s,PASSED
+,,,,,,,
+Test Cases/Training-Java/Training-4-Arrays,,,,2566-11-08 10:56:51,2566-11-08 10:56:51,0.360s,PASSED
+"numbers = [1, 2, 3, 4, 5]",,,,2566-11-08 10:56:51,2566-11-08 10:56:51,0.000s,PASSED
+firstElement = numbers[0],,,,2566-11-08 10:56:51,2566-11-08 10:56:51,0.000s,PASSED
+secondElement = numbers[1],,,,2566-11-08 10:56:51,2566-11-08 10:56:51,0.000s,PASSED
+sum = 0,,,,2566-11-08 10:56:51,2566-11-08 10:56:51,0.000s,PASSED
+for (def i : numbers),,,,2566-11-08 10:56:51,2566-11-08 10:56:51,0.016s,PASSED
+"println(""Total = "" + sum)",,,,2566-11-08 10:56:51,2566-11-08 10:56:51,0.000s,PASSED
+,,,,,,,
+Test Cases/Training-Java/Training-5-Function,,,,2566-11-08 10:56:51,2566-11-08 10:56:52,0.287s,PASSED
+a = 20,,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.003s,PASSED
+b = 30,,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+"c = example.Training.add(a, b)",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.002s,PASSED
+"println(""Sum : "" + c)",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+"d = example.Training.diff(a, b)",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+"println(""Remain : "" + d)",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+,,,,,,,
+Test Cases/Training-Java/Training-6-Concat,,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.220s,PASSED
+"FirstName = ""Wisanu""",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+"LastName = ""Simalai""",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+"FullName = FirstName + "" "" + LastName",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+"println(""Fullname : "" + FullName)",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+,,,,,,,
+Test Cases/Training-Java/Training-7-Replace,,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.220s,PASSED
+"sentence = ""Hello, world! Hello, Java!""",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+println(sentence),,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+"newSentence = sentence.replace("" Hello"", "" Hi"")",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+println(newSentence),,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+,,,,,,,
+Test Cases/Training-Java/Excersice,,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.298s,PASSED
+myNumber = 10,,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+myDouble = 3.14,,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+"myString = ""Hello, Java!""",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+"myStringNumber = ""25""",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+intNumber = Integer.parseInt(myStringNumber),,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+TotalNum = myNumber + intNumber,,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+"println(""TotalNum = "" + TotalNum)",,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.000s,PASSED
+if (myNumber > 5),,,,2566-11-08 10:56:52,2566-11-08 10:56:52,0.016s,PASSED
+,,,,,,,
+Test Cases/Training-Java/Excersice-4,,,,2566-11-08 10:56:52,2566-11-08 10:56:53,0.294s,PASSED
+"for ([i = 1, i < 11, (i++)])",,,,2566-11-08 10:56:53,2566-11-08 10:56:53,0.012s,PASSED
+"for ([i = 2, i <= 20, i += 2])",,,,2566-11-08 10:56:53,2566-11-08 10:56:53,0.000s,PASSED
+"for ([i = 1, i <= 12, (i++)])",,,,2566-11-08 10:56:53,2566-11-08 10:56:53,0.015s,PASSED
+,,,,,,,
+Test Cases/Training-Java/Excersice-5,,,,2566-11-08 10:56:53,2566-11-08 10:56:53,0.288s,PASSED
+"myArrays = [5, 10, 15, 20, 25]",,,,2566-11-08 10:56:53,2566-11-08 10:56:53,0.000s,PASSED
+for (def i : myArrays),,,,2566-11-08 10:56:53,2566-11-08 10:56:53,0.000s,PASSED
+"println(""The 3rd position of myArrays is : "" + myArrays[2])",,,,2566-11-08 10:56:53,2566-11-08 10:56:53,0.000s,PASSED

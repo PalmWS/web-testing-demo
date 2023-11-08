@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test-XPATH" time="34.067" tests="6" failures="0" errors="0">
+   <testsuite name="Test-XPATH" tests="6" failures="0" errors="0" time="34.067" skipped="0" timestamp="2566-11-08 10:52:48" hostname="Wisanu - GA006556-Wisanu" id="Test Suites/XPATH/Test-XPATH">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\web-testing-demo\\Reports\\25661108_104957\\XPATH\\Test-XPATH\\25661108_105002"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\web-testing-demo\\Reports\\25661108_104957\\XPATH\\Test-XPATH\\25661108_105002\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Wisanu - GA006556-Wisanu"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="afc12b0070bea6a645e3d231483a7bbf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Training-XPATH/XPATH-EX00" time="6.309" classname="Test Cases/Training-XPATH/XPATH-EX00" status="PASSED">
+         <system-out><![CDATA[2566-11-08 10:52:49 - [TEST_CASE][PASSED] - Test Cases/Training-XPATH/XPATH-EX00: Test Cases/Training-XPATH/XPATH-EX00
+
+2566-11-08 10:52:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-08 10:52:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-08 10:52:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-08 10:52:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-08 10:52:52 - [TEST_STEP][PASSED] - navigateToUrl("D:\Katalon Training\Exercise - XParth\ex00.html"): Navigate to 'file:/D:/Katalon%20Training/Exercise%20-%20XParth/ex00.html' successfully
+
+2566-11-08 10:52:52 - [MESSAGE][PASSED] - Navigate to 'file:/D:/Katalon%20Training/Exercise%20-%20XParth/ex00.html' successfully
+
+2566-11-08 10:52:52 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX00/Username"), "TESTUSER01"): Text 'TESTUSER01' is set on object 'Object Repository/Training-XPATH/EX00/Username'
+
+2566-11-08 10:52:53 - [MESSAGE][PASSED] - Text 'TESTUSER01' is set on object 'Object Repository/Training-XPATH/EX00/Username'
+
+2566-11-08 10:52:53 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX00/Password"), "P@ssw0rd"): Text 'P@ssw0rd' is set on object 'Object Repository/Training-XPATH/EX00/Password'
+
+2566-11-08 10:52:54 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Training-XPATH/EX00/Password'
+
+2566-11-08 10:52:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-11-08 10:52:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Training-XPATH/XPATH-EX01" time="4.534" classname="Test Cases/Training-XPATH/XPATH-EX01" status="PASSED">
+         <system-out><![CDATA[2566-11-08 10:52:55 - [TEST_CASE][PASSED] - Test Cases/Training-XPATH/XPATH-EX01: Test Cases/Training-XPATH/XPATH-EX01
+
+2566-11-08 10:52:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-08 10:52:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-08 10:52:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-08 10:52:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-08 10:52:57 - [TEST_STEP][PASSED] - navigateToUrl("D:\Katalon Training\Exercise - XParth\ex01.html"): Navigate to 'file:/D:/Katalon%20Training/Exercise%20-%20XParth/ex01.html' successfully
+
+2566-11-08 10:52:57 - [MESSAGE][PASSED] - Navigate to 'file:/D:/Katalon%20Training/Exercise%20-%20XParth/ex01.html' successfully
+
+2566-11-08 10:52:57 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX01/Username"), "TESTUSER"): Text 'TESTUSER' is set on object 'Object Repository/Training-XPATH/EX01/Username'
+
+2566-11-08 10:52:58 - [MESSAGE][PASSED] - Text 'TESTUSER' is set on object 'Object Repository/Training-XPATH/EX01/Username'
+
+2566-11-08 10:52:58 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX01/Password"), "TESTPASS"): Text 'TESTPASS' is set on object 'Object Repository/Training-XPATH/EX01/Password'
+
+2566-11-08 10:52:59 - [MESSAGE][PASSED] - Text 'TESTPASS' is set on object 'Object Repository/Training-XPATH/EX01/Password'
+
+2566-11-08 10:52:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-11-08 10:53:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Training-XPATH/XPATH-EX02" time="4.461" classname="Test Cases/Training-XPATH/XPATH-EX02" status="PASSED">
+         <system-out><![CDATA[2566-11-08 10:53:00 - [TEST_CASE][PASSED] - Test Cases/Training-XPATH/XPATH-EX02: Test Cases/Training-XPATH/XPATH-EX02
+
+2566-11-08 10:53:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-08 10:53:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-08 10:53:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-08 10:53:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-08 10:53:02 - [TEST_STEP][PASSED] - navigateToUrl("D:\Katalon Training\Exercise - XParth\ex02.html"): Navigate to 'file:/D:/Katalon%20Training/Exercise%20-%20XParth/ex02.html' successfully
+
+2566-11-08 10:53:02 - [MESSAGE][PASSED] - Navigate to 'file:/D:/Katalon%20Training/Exercise%20-%20XParth/ex02.html' successfully
+
+2566-11-08 10:53:02 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX02/Username"), "testuser"): Text 'testuser' is set on object 'Object Repository/Training-XPATH/EX02/Username'
+
+2566-11-08 10:53:02 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Training-XPATH/EX02/Username'
+
+2566-11-08 10:53:02 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX02/Password"), "testpass"): Text 'testpass' is set on object 'Object Repository/Training-XPATH/EX02/Password'
+
+2566-11-08 10:53:03 - [MESSAGE][PASSED] - Text 'testpass' is set on object 'Object Repository/Training-XPATH/EX02/Password'
+
+2566-11-08 10:53:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-11-08 10:53:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Training-XPATH/XPATH-EX03" time="4.657" classname="Test Cases/Training-XPATH/XPATH-EX03" status="PASSED">
+         <system-out><![CDATA[2566-11-08 10:53:04 - [TEST_CASE][PASSED] - Test Cases/Training-XPATH/XPATH-EX03: Test Cases/Training-XPATH/XPATH-EX03
+
+2566-11-08 10:53:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-08 10:53:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-08 10:53:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-08 10:53:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-08 10:53:06 - [TEST_STEP][PASSED] - navigateToUrl("D:\Katalon Training\Exercise - XParth\ex03.html"): Navigate to 'file:/D:/Katalon%20Training/Exercise%20-%20XParth/ex03.html' successfully
+
+2566-11-08 10:53:06 - [MESSAGE][PASSED] - Navigate to 'file:/D:/Katalon%20Training/Exercise%20-%20XParth/ex03.html' successfully
+
+2566-11-08 10:53:06 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX03/username"), "testuser"): Text 'testuser' is set on object 'Object Repository/Training-XPATH/EX03/username'
+
+2566-11-08 10:53:07 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Training-XPATH/EX03/username'
+
+2566-11-08 10:53:07 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX03/password"), "testpass"): Text 'testpass' is set on object 'Object Repository/Training-XPATH/EX03/password'
+
+2566-11-08 10:53:08 - [MESSAGE][PASSED] - Text 'testpass' is set on object 'Object Repository/Training-XPATH/EX03/password'
+
+2566-11-08 10:53:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-11-08 10:53:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Training-XPATH/XPATH-EX04" time="6.101" classname="Test Cases/Training-XPATH/XPATH-EX04" status="PASSED">
+         <system-out><![CDATA[2566-11-08 10:53:09 - [TEST_CASE][PASSED] - Test Cases/Training-XPATH/XPATH-EX04: Test Cases/Training-XPATH/XPATH-EX04
+
+2566-11-08 10:53:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-08 10:53:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-08 10:53:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-08 10:53:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-08 10:53:11 - [TEST_STEP][PASSED] - navigateToUrl("D:\Katalon Training\Exercise - XParth\ex04.html"): Navigate to 'file:/D:/Katalon%20Training/Exercise%20-%20XParth/ex04.html' successfully
+
+2566-11-08 10:53:11 - [MESSAGE][PASSED] - Navigate to 'file:/D:/Katalon%20Training/Exercise%20-%20XParth/ex04.html' successfully
+
+2566-11-08 10:53:11 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX04/User"), "testuser"): Text 'testuser' is set on object 'Object Repository/Training-XPATH/EX04/User'
+
+2566-11-08 10:53:12 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Training-XPATH/EX04/User'
+
+2566-11-08 10:53:12 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX04/Password"), "testpass"): Text 'testpass' is set on object 'Object Repository/Training-XPATH/EX04/Password'
+
+2566-11-08 10:53:13 - [MESSAGE][PASSED] - Text 'testpass' is set on object 'Object Repository/Training-XPATH/EX04/Password'
+
+2566-11-08 10:53:13 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX04/Nickname"), "testnickname"): Text 'testnickname' is set on object 'Object Repository/Training-XPATH/EX04/Nickname'
+
+2566-11-08 10:53:14 - [MESSAGE][PASSED] - Text 'testnickname' is set on object 'Object Repository/Training-XPATH/EX04/Nickname'
+
+2566-11-08 10:53:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-11-08 10:53:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Training-XPATH/XPATH-EX05" time="7.701" classname="Test Cases/Training-XPATH/XPATH-EX05" status="PASSED">
+         <system-out><![CDATA[2566-11-08 10:53:15 - [TEST_CASE][PASSED] - Test Cases/Training-XPATH/XPATH-EX05: Test Cases/Training-XPATH/XPATH-EX05
+
+2566-11-08 10:53:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-08 10:53:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-08 10:53:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-08 10:53:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-08 10:53:17 - [TEST_STEP][PASSED] - navigateToUrl(url_EX05): Navigate to 'file:/D:/Katalon%20Training/Exercise%20-%20XParth/ex05.html' successfully
+
+2566-11-08 10:53:17 - [MESSAGE][PASSED] - Navigate to 'file:/D:/Katalon%20Training/Exercise%20-%20XParth/ex05.html' successfully
+
+2566-11-08 10:53:17 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX05/username"), "testuser"): Text 'testuser' is set on object 'Object Repository/Training-XPATH/EX05/username'
+
+2566-11-08 10:53:18 - [MESSAGE][PASSED] - Text 'testuser' is set on object 'Object Repository/Training-XPATH/EX05/username'
+
+2566-11-08 10:53:18 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX05/password"), "testpass"): Text 'testpass' is set on object 'Object Repository/Training-XPATH/EX05/password'
+
+2566-11-08 10:53:19 - [MESSAGE][PASSED] - Text 'testpass' is set on object 'Object Repository/Training-XPATH/EX05/password'
+
+2566-11-08 10:53:19 - [TEST_STEP][PASSED] - setText(findTestObject("Training-XPATH/EX05/nickname"), "testnickname"): Text 'testnickname' is set on object 'Object Repository/Training-XPATH/EX05/nickname'
+
+2566-11-08 10:53:20 - [MESSAGE][PASSED] - Text 'testnickname' is set on object 'Object Repository/Training-XPATH/EX05/nickname'
+
+2566-11-08 10:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Training-XPATH/EX05/Dropdown")): Object: 'Object Repository/Training-XPATH/EX05/Dropdown' is clicked on
+
+2566-11-08 10:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Training-XPATH/EX05/Dropdown' is clicked on
+
+2566-11-08 10:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Training-XPATH/EX05/Dropdown_Select_Doppio")): Object: 'Object Repository/Training-XPATH/EX05/Dropdown_Select_Doppio' is clicked on
+
+2566-11-08 10:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Training-XPATH/EX05/Dropdown_Select_Doppio' is clicked on
+
+2566-11-08 10:53:21 - [TEST_STEP][PASSED] - click(findTestObject("Training-XPATH/EX05/checkbox-Iamfine")): Object: 'Object Repository/Training-XPATH/EX05/checkbox-Iamfine' is clicked on
+
+2566-11-08 10:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Training-XPATH/EX05/checkbox-Iamfine' is clicked on
+
+2566-11-08 10:53:21 - [TEST_STEP][PASSED] - click(findTestObject("Training-XPATH/EX05/finish-button")): Object: 'Object Repository/Training-XPATH/EX05/finish-button' is clicked on
+
+2566-11-08 10:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Training-XPATH/EX05/finish-button' is clicked on
+
+2566-11-08 10:53:22 - [TEST_STEP][PASSED] - alertText = getAlertText(): Get alert text successfully: 'Congratulation you pass the assignment'
+
+2566-11-08 10:53:22 - [MESSAGE][PASSED] - Get alert text successfully: 'Congratulation you pass the assignment'
+
+2566-11-08 10:53:22 - [TEST_STEP][PASSED] - println("alert = " + alertText): null
+
+2566-11-08 10:53:22 - [TEST_STEP][PASSED] - verifyMatch(alertText, expect, false): Actual text 'Congratulation you pass the assignment' and expected text 'Congratulation you pass the assignment' are matched 
+
+2566-11-08 10:53:22 - [MESSAGE][PASSED] - Actual text 'Congratulation you pass the assignment' and expected text 'Congratulation you pass the assignment' are matched 
+
+2566-11-08 10:53:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-11-08 10:53:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2566-11-08 10:52:48 - [TEST_SUITE][PASSED] - Test-XPATH: Test Cases/Training-XPATH/XPATH-EX05]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

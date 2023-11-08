@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test-XPATH,Chrome 118.0.0.0,,,2566-11-08 10:58:00,2566-11-08 10:58:32,32.485s,PASSED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX00,Chrome 118.0.0.0,,,2566-11-08 10:58:00,2566-11-08 10:58:06,6.204s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2566-11-08 10:58:00,2566-11-08 10:58:04,3.350s,PASSED
+"navigateToUrl(""D:\Katalon Training\Exercise - XParth\ex00.html"")",Chrome 118.0.0.0,,,2566-11-08 10:58:04,2566-11-08 10:58:04,0.152s,PASSED
+"setText(findTestObject(""Training-XPATH/EX00/Username""), ""TESTUSER01"")",Chrome 118.0.0.0,,,2566-11-08 10:58:04,2566-11-08 10:58:05,0.845s,PASSED
+"setText(findTestObject(""Training-XPATH/EX00/Password""), ""P@ssw0rd"")",Chrome 118.0.0.0,,,2566-11-08 10:58:05,2566-11-08 10:58:05,0.695s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2566-11-08 10:58:05,2566-11-08 10:58:06,0.763s,PASSED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX01,Chrome 118.0.0.0,,,2566-11-08 10:58:06,2566-11-08 10:58:11,4.853s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2566-11-08 10:58:06,2566-11-08 10:58:08,1.933s,PASSED
+"navigateToUrl(""D:\Katalon Training\Exercise - XParth\ex01.html"")",Chrome 118.0.0.0,,,2566-11-08 10:58:08,2566-11-08 10:58:08,0.104s,PASSED
+"setText(findTestObject(""Training-XPATH/EX01/Username""), ""TESTUSER"")",Chrome 118.0.0.0,,,2566-11-08 10:58:08,2566-11-08 10:58:09,0.854s,PASSED
+"setText(findTestObject(""Training-XPATH/EX01/Password""), ""TESTPASS"")",Chrome 118.0.0.0,,,2566-11-08 10:58:09,2566-11-08 10:58:10,0.747s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2566-11-08 10:58:10,2566-11-08 10:58:11,0.816s,PASSED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX02,Chrome 118.0.0.0,,,2566-11-08 10:58:11,2566-11-08 10:58:16,4.649s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2566-11-08 10:58:11,2566-11-08 10:58:13,1.689s,PASSED
+"navigateToUrl(""D:\Katalon Training\Exercise - XParth\ex02.html"")",Chrome 118.0.0.0,,,2566-11-08 10:58:13,2566-11-08 10:58:13,0.238s,PASSED
+"setText(findTestObject(""Training-XPATH/EX02/Username""), ""testuser"")",Chrome 118.0.0.0,,,2566-11-08 10:58:13,2566-11-08 10:58:14,0.938s,PASSED
+"setText(findTestObject(""Training-XPATH/EX02/Password""), ""testpass"")",Chrome 118.0.0.0,,,2566-11-08 10:58:14,2566-11-08 10:58:15,0.687s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2566-11-08 10:58:15,2566-11-08 10:58:16,0.803s,PASSED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX03,Chrome 118.0.0.0,,,2566-11-08 10:58:16,2566-11-08 10:58:20,4.528s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2566-11-08 10:58:16,2566-11-08 10:58:18,1.784s,PASSED
+"navigateToUrl(""D:\Katalon Training\Exercise - XParth\ex03.html"")",Chrome 118.0.0.0,,,2566-11-08 10:58:18,2566-11-08 10:58:18,0.157s,PASSED
+"setText(findTestObject(""Training-XPATH/EX03/username""), ""testuser"")",Chrome 118.0.0.0,,,2566-11-08 10:58:18,2566-11-08 10:58:19,0.840s,PASSED
+"setText(findTestObject(""Training-XPATH/EX03/password""), ""testpass"")",Chrome 118.0.0.0,,,2566-11-08 10:58:19,2566-11-08 10:58:19,0.780s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2566-11-08 10:58:19,2566-11-08 10:58:20,0.721s,PASSED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX04,Chrome 118.0.0.0,,,2566-11-08 10:58:20,2566-11-08 10:58:25,5.187s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2566-11-08 10:58:20,2566-11-08 10:58:22,1.706s,PASSED
+"navigateToUrl(""D:\Katalon Training\Exercise - XParth\ex04.html"")",Chrome 118.0.0.0,,,2566-11-08 10:58:22,2566-11-08 10:58:22,0.103s,PASSED
+"setText(findTestObject(""Training-XPATH/EX04/User""), ""testuser"")",Chrome 118.0.0.0,,,2566-11-08 10:58:22,2566-11-08 10:58:23,0.942s,PASSED
+"setText(findTestObject(""Training-XPATH/EX04/Password""), ""testpass"")",Chrome 118.0.0.0,,,2566-11-08 10:58:23,2566-11-08 10:58:24,0.659s,PASSED
+"setText(findTestObject(""Training-XPATH/EX04/Nickname""), ""testnickname"")",Chrome 118.0.0.0,,,2566-11-08 10:58:24,2566-11-08 10:58:24,0.691s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2566-11-08 10:58:24,2566-11-08 10:58:25,0.824s,PASSED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX05,Chrome 118.0.0.0,,,2566-11-08 10:58:25,2566-11-08 10:58:32,6.711s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2566-11-08 10:58:26,2566-11-08 10:58:27,1.722s,PASSED
+navigateToUrl(url_EX05),Chrome 118.0.0.0,,,2566-11-08 10:58:27,2566-11-08 10:58:27,0.153s,PASSED
+"setText(findTestObject(""Training-XPATH/EX05/username""), ""testuser"")",Chrome 118.0.0.0,,,2566-11-08 10:58:27,2566-11-08 10:58:28,0.728s,PASSED
+"setText(findTestObject(""Training-XPATH/EX05/password""), ""testpass"")",Chrome 118.0.0.0,,,2566-11-08 10:58:28,2566-11-08 10:58:29,0.642s,PASSED
+"setText(findTestObject(""Training-XPATH/EX05/nickname""), ""testnickname"")",Chrome 118.0.0.0,,,2566-11-08 10:58:29,2566-11-08 10:58:30,0.743s,PASSED
+"click(findTestObject(""Training-XPATH/EX05/Dropdown""))",Chrome 118.0.0.0,,,2566-11-08 10:58:30,2566-11-08 10:58:30,0.415s,PASSED
+"click(findTestObject(""Training-XPATH/EX05/Dropdown_Select_Doppio""))",Chrome 118.0.0.0,,,2566-11-08 10:58:30,2566-11-08 10:58:30,0.343s,PASSED
+"click(findTestObject(""Training-XPATH/EX05/checkbox-Iamfine""))",Chrome 118.0.0.0,,,2566-11-08 10:58:30,2566-11-08 10:58:31,0.343s,PASSED
+"click(findTestObject(""Training-XPATH/EX05/finish-button""))",Chrome 118.0.0.0,,,2566-11-08 10:58:31,2566-11-08 10:58:31,0.367s,PASSED
+alertText = getAlertText(),Chrome 118.0.0.0,,,2566-11-08 10:58:31,2566-11-08 10:58:31,0.021s,PASSED
+"println(""alert = "" + alertText)",Chrome 118.0.0.0,,,2566-11-08 10:58:31,2566-11-08 10:58:31,0.002s,PASSED
+"verifyMatch(alertText, expect, false)",Chrome 118.0.0.0,,,2566-11-08 10:58:31,2566-11-08 10:58:31,0.029s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2566-11-08 10:58:31,2566-11-08 10:58:32,0.858s,PASSED

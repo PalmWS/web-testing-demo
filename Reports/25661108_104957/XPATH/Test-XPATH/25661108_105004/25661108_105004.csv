@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test-XPATH,,,,2566-11-08 10:53:45,2566-11-08 10:54:00,15.072s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX00,,,,2566-11-08 10:53:45,2566-11-08 10:53:50,5.251s,FAILED
+"openBrowser("""")",,,,2566-11-08 10:53:45,2566-11-08 10:53:50,4.674s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX01,,,,2566-11-08 10:53:50,2566-11-08 10:53:52,1.966s,FAILED
+"openBrowser("""")",,,,2566-11-08 10:53:51,2566-11-08 10:53:52,1.459s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX02,,,,2566-11-08 10:53:52,2566-11-08 10:53:54,1.711s,FAILED
+"openBrowser("""")",,,,2566-11-08 10:53:52,2566-11-08 10:53:54,1.319s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX03,,,,2566-11-08 10:53:54,2566-11-08 10:53:56,1.763s,FAILED
+"openBrowser("""")",,,,2566-11-08 10:53:54,2566-11-08 10:53:56,1.427s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX04,,,,2566-11-08 10:53:56,2566-11-08 10:53:58,1.963s,FAILED
+"openBrowser("""")",,,,2566-11-08 10:53:56,2566-11-08 10:53:58,1.517s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX05,,,,2566-11-08 10:53:58,2566-11-08 10:54:00,2.057s,FAILED
+"openBrowser("""")",,,,2566-11-08 10:53:58,2566-11-08 10:54:00,1.497s,FAILED

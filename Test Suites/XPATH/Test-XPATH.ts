@@ -52,5 +52,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Training-XPATH/XPATH-EX05</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cb8c37a7-eeee-4115-9247-a5140fe50282</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ed41fb90-3035-4cda-9a62-ff4c7c4812de</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

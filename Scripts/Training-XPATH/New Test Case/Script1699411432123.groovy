@@ -19,27 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(url_EX05)
+WebUI.navigateToUrl('https://www.google.com')
 
-WebUI.setText(findTestObject('Training-XPATH/EX05/username'), 'testuser')
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Training-XPATH/EX05/password'), 'testpass')
-
-WebUI.setText(findTestObject('Training-XPATH/EX05/nickname'), 'testnickname')
-
-WebUI.click(findTestObject('Training-XPATH/EX05/Dropdown'))
-
-WebUI.click(findTestObject('Training-XPATH/EX05/Dropdown_Select_Doppio'))
-
-WebUI.click(findTestObject('Training-XPATH/EX05/checkbox-Iamfine'))
-
-WebUI.click(findTestObject('Training-XPATH/EX05/finish-button'))
-
-alertText = WebUI.getAlertText()
-
-println('alert = ' + alertText)
-
-WebUI.verifyMatch(alertText, expect, false)
-
-WebUI.closeBrowser()
+WebUI.takeScreenshot()
 

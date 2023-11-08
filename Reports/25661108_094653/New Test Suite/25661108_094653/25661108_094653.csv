@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 118.0.0.0,,,2566-11-08 09:47:08,2566-11-08 09:47:16,7.708s,PASSED
+,,,,,,,
+Test Cases/Training-XPATH/New Test Case,Chrome 118.0.0.0,,,2566-11-08 09:47:09,2566-11-08 09:47:16,7.232s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2566-11-08 09:47:09,2566-11-08 09:47:14,4.602s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 118.0.0.0,,,2566-11-08 09:47:14,2566-11-08 09:47:15,1.443s,PASSED
+maximizeWindow(),Chrome 118.0.0.0,,,2566-11-08 09:47:15,2566-11-08 09:47:15,0.170s,PASSED
+takeScreenshot(),Chrome 118.0.0.0,,,2566-11-08 09:47:15,2566-11-08 09:47:16,0.615s,PASSED
