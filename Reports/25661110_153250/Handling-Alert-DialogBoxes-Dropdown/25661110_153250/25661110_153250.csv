@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Handling-Alert-DialogBoxes-Dropdown,Chrome 119.0.0.0,,,2566-11-10 15:32:59,2566-11-10 15:34:43,1m - 44.649s,PASSED
+,,,,,,,
+Test Cases/Handling Alerts dialogue boxes and dropdown/Handling alerts/Handling Alert Keywords,Chrome 119.0.0.0,,,2566-11-10 15:32:59,2566-11-10 15:33:09,9.783s,PASSED
+"openBrowser(""https://demo.automationtesting.in/Alerts.html"")",Chrome 119.0.0.0,,,2566-11-10 15:32:59,2566-11-10 15:33:05,5.650s,PASSED
+"click(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/button_click the button to display an  alert box""))",Chrome 119.0.0.0,,,2566-11-10 15:33:05,2566-11-10 15:33:06,1.498s,PASSED
+verifyAlertPresent(3),Chrome 119.0.0.0,,,2566-11-10 15:33:06,2566-11-10 15:33:07,0.025s,PASSED
+getAlertText(),Chrome 119.0.0.0,,,2566-11-10 15:33:07,2566-11-10 15:33:07,0.021s,PASSED
+sleep(3),Chrome 119.0.0.0,,,2566-11-10 15:33:07,2566-11-10 15:33:07,0.006s,PASSED
+acceptAlert(),Chrome 119.0.0.0,,,2566-11-10 15:33:07,2566-11-10 15:33:07,0.032s,PASSED
+"click(findTestObject(""Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/a_Alert with OK  Cancel""))",Chrome 119.0.0.0,,,2566-11-10 15:33:07,2566-11-10 15:33:07,0.574s,PASSED
+"click(findTestObject(""Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/button_click the button to display a confirm box""))",Chrome 119.0.0.0,,,2566-11-10 15:33:07,2566-11-10 15:33:08,0.497s,PASSED
+sleep(3),Chrome 119.0.0.0,,,2566-11-10 15:33:08,2566-11-10 15:33:08,0.004s,PASSED
+dismissAlert(),Chrome 119.0.0.0,,,2566-11-10 15:33:08,2566-11-10 15:33:08,0.037s,PASSED
+"click(findTestObject(""Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/a_Alert with Textbox""))",Chrome 119.0.0.0,,,2566-11-10 15:33:08,2566-11-10 15:33:08,0.509s,PASSED
+"click(findTestObject(""Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/button_click the button to demonstrate the _b1783c""))",Chrome 119.0.0.0,,,2566-11-10 15:33:08,2566-11-10 15:33:09,0.499s,PASSED
+sleep(5),Chrome 119.0.0.0,,,2566-11-10 15:33:09,2566-11-10 15:33:09,0.008s,PASSED
+"setAlertText(""Hello World!"")",Chrome 119.0.0.0,,,2566-11-10 15:33:09,2566-11-10 15:33:09,0.041s,PASSED
+acceptAlert(),Chrome 119.0.0.0,,,2566-11-10 15:33:09,2566-11-10 15:33:09,0.018s,PASSED
+,,,,,,,
+Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dialogue boxes/Browser based modal,Chrome 119.0.0.0,,,2566-11-10 15:33:09,2566-11-10 15:33:26,16.856s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2566-11-10 15:33:09,2566-11-10 15:33:12,2.598s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/upload"")",Chrome 119.0.0.0,,,2566-11-10 15:33:12,2566-11-10 15:33:15,3.163s,PASSED
+"uploadFile(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_The Internet/input_File Uploader_file""), ""C:\Users\Admin\Downloads\Sleep Stage Classification with MNE and Scikit-learn in Python (Poster) (3).png"")",Chrome 119.0.0.0,,,2566-11-10 15:33:15,2566-11-10 15:33:15,0.543s,PASSED
+sleep(5),Chrome 119.0.0.0,,,2566-11-10 15:33:15,2566-11-10 15:33:15,0.006s,PASSED
+"click(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_The Internet/input_File Uploader_file-submit""))",Chrome 119.0.0.0,,,2566-11-10 15:33:15,2566-11-10 15:33:26,10.136s,PASSED
+,,,,,,,
+Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dialogue boxes/Web based modal,Chrome 119.0.0.0,,,2566-11-10 15:33:26,2566-11-10 15:34:31,1m - 4.901s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2566-11-10 15:33:26,2566-11-10 15:33:28,2.424s,PASSED
+"navigateToUrl(""https://academy.katalon.com/courses/test-reusability/"")",Chrome 119.0.0.0,,,2566-11-10 15:33:28,2566-11-10 15:33:35,6.889s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/Home_Course_Path""), ""Courses"")",Chrome 119.0.0.0,,,2566-11-10 15:33:35,2566-11-10 15:34:05,30.156s,PASSED
+"click(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/button_Enroll""))",Chrome 119.0.0.0,,,2566-11-10 15:34:05,2566-11-10 15:34:19,13.528s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/p_Create a Katalon account""), ""Create a Katalon account"")",Chrome 119.0.0.0,,,2566-11-10 15:34:19,2566-11-10 15:34:23,3.814s,PASSED
+"click(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/a_Log In""))",Chrome 119.0.0.0,,,2566-11-10 15:34:23,2566-11-10 15:34:23,0.395s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/p_Log in to Katalon Academy""), ""Log in to Katalon Academy"")",Chrome 119.0.0.0,,,2566-11-10 15:34:23,2566-11-10 15:34:24,0.816s,PASSED
+"setText(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/input_Sign up now_username""), ""c03151@g-able.com"")",Chrome 119.0.0.0,,,2566-11-10 15:34:24,2566-11-10 15:34:25,0.792s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/input_Sign up now_password""), ""SI0GGZob3zMh90awW9WaTA=="")",Chrome 119.0.0.0,,,2566-11-10 15:34:25,2566-11-10 15:34:25,0.511s,PASSED
+"click(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/input_Katalon Certification Program_skillat_294bf0""))",Chrome 119.0.0.0,,,2566-11-10 15:34:25,2566-11-10 15:34:26,0.409s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/a_Replay Course""), ""Replay Course"")",Chrome 119.0.0.0,,,2566-11-10 15:34:26,2566-11-10 15:34:31,4.855s,PASSED
+,,,,,,,
+Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dropdown/Hospital Appointment,Chrome 119.0.0.0,,,2566-11-10 15:34:31,2566-11-10 15:34:43,12.846s,PASSED
+"openBrowser("""")",Chrome 119.0.0.0,,,2566-11-10 15:34:31,2566-11-10 15:34:33,2.400s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 119.0.0.0,,,2566-11-10 15:34:33,2566-11-10 15:34:36,2.787s,PASSED
+"click(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 119.0.0.0,,,2566-11-10 15:34:36,2566-11-10 15:34:37,0.805s,PASSED
+"setText(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 119.0.0.0,,,2566-11-10 15:34:37,2566-11-10 15:34:38,0.898s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 119.0.0.0,,,2566-11-10 15:34:38,2566-11-10 15:34:38,0.485s,PASSED
+"click(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login""))",Chrome 119.0.0.0,,,2566-11-10 15:34:38,2566-11-10 15:34:39,1.092s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/selectFacility""), ""Hongkong CURA Healthcare Center"", false)",Chrome 119.0.0.0,,,2566-11-10 15:34:39,2566-11-10 15:34:40,0.737s,PASSED
+"click(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Apply_for_hospital_readmission_checkbox""))",Chrome 119.0.0.0,,,2566-11-10 15:34:40,2566-11-10 15:34:40,0.377s,PASSED
+"click(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 119.0.0.0,,,2566-11-10 15:34:40,2566-11-10 15:34:41,0.394s,PASSED
+"click(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/td_30""))",Chrome 119.0.0.0,,,2566-11-10 15:34:41,2566-11-10 15:34:41,0.490s,PASSED
+"click(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 119.0.0.0,,,2566-11-10 15:34:41,2566-11-10 15:34:42,0.901s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/appointment.php#summary"")",Chrome 119.0.0.0,,,2566-11-10 15:34:42,2566-11-10 15:34:42,0.022s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 119.0.0.0,,,2566-11-10 15:34:42,2566-11-10 15:34:43,0.366s,PASSED
+closeBrowser(),Chrome 119.0.0.0,,,2566-11-10 15:34:43,2566-11-10 15:34:43,0.813s,PASSED

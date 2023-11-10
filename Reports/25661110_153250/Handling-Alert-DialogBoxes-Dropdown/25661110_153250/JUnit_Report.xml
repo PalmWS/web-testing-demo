@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Handling-Alert-DialogBoxes-Dropdown" time="104.649" tests="4" failures="0" errors="0">
+   <testsuite name="Handling-Alert-DialogBoxes-Dropdown" tests="4" failures="0" errors="0" time="104.649" skipped="0" timestamp="2566-11-10 15:32:59" hostname="Wisanu - GA006556-Wisanu" id="Test Suites/Handling-Alert-DialogBoxes-Dropdown">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Admin\\git\\web-testing-demo\\Reports\\25661110_153250\\Handling-Alert-DialogBoxes-Dropdown\\25661110_153250"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\git\\web-testing-demo\\Reports\\25661110_153250\\Handling-Alert-DialogBoxes-Dropdown\\25661110_153250\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Wisanu - GA006556-Wisanu"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.6.208"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="71a1962bd2021aa8256470111424bc8a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Handling Alerts dialogue boxes and dropdown/Handling alerts/Handling Alert Keywords" time="9.783" classname="Test Cases/Handling Alerts dialogue boxes and dropdown/Handling alerts/Handling Alert Keywords" status="PASSED">
+         <system-out><![CDATA[2566-11-10 15:32:59 - [TEST_CASE][PASSED] - Test Cases/Handling Alerts dialogue boxes and dropdown/Handling alerts/Handling Alert Keywords: Test Cases/Handling Alerts dialogue boxes and dropdown/Handling alerts/Handling Alert Keywords
+
+2566-11-10 15:32:59 - [TEST_STEP][PASSED] - openBrowser("https://demo.automationtesting.in/Alerts.html"): Browser is opened with url: 'https://demo.automationtesting.in/Alerts.html'
+
+2566-11-10 15:33:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-10 15:33:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-10 15:33:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo.automationtesting.in/Alerts.html'
+
+2566-11-10 15:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/button_click the button to display an  alert box")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/button_click the button to display an  alert box' is clicked on
+
+2566-11-10 15:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/button_click the button to display an  alert box' is clicked on
+
+2566-11-10 15:33:06 - [TEST_STEP][PASSED] - verifyAlertPresent(3): Alert is present after 3 second(s).
+
+2566-11-10 15:33:07 - [MESSAGE][PASSED] - Alert is present after 3 second(s).
+
+2566-11-10 15:33:07 - [TEST_STEP][PASSED] - getAlertText(): Get alert text successfully: 'I am an alert box!'
+
+2566-11-10 15:33:07 - [MESSAGE][PASSED] - Get alert text successfully: 'I am an alert box!'
+
+2566-11-10 15:33:07 - [TEST_STEP][PASSED] - sleep(3): null
+
+2566-11-10 15:33:07 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2566-11-10 15:33:07 - [MESSAGE][PASSED] - Alert accepted
+
+2566-11-10 15:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/a_Alert with OK  Cancel")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/a_Alert with OK  Cancel' is clicked on
+
+2566-11-10 15:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/a_Alert with OK  Cancel' is clicked on
+
+2566-11-10 15:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/button_click the button to display a confirm box")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/button_click the button to display a confirm box' is clicked on
+
+2566-11-10 15:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/button_click the button to display a confirm box' is clicked on
+
+2566-11-10 15:33:08 - [TEST_STEP][PASSED] - sleep(3): null
+
+2566-11-10 15:33:08 - [TEST_STEP][PASSED] - dismissAlert(): Alert dismissed
+
+2566-11-10 15:33:08 - [MESSAGE][PASSED] - Alert dismissed
+
+2566-11-10 15:33:08 - [TEST_STEP][PASSED] - click(findTestObject("Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/a_Alert with Textbox")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/a_Alert with Textbox' is clicked on
+
+2566-11-10 15:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/a_Alert with Textbox' is clicked on
+
+2566-11-10 15:33:08 - [TEST_STEP][PASSED] - click(findTestObject("Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/button_click the button to demonstrate the _b1783c")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/button_click the button to demonstrate the _b1783c' is clicked on
+
+2566-11-10 15:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling alerts/Page_Alerts/button_click the button to demonstrate the _b1783c' is clicked on
+
+2566-11-10 15:33:09 - [TEST_STEP][PASSED] - sleep(5): null
+
+2566-11-10 15:33:09 - [TEST_STEP][PASSED] - setAlertText("Hello World!"): Set alert text 'Hello World!' successfully
+
+2566-11-10 15:33:09 - [MESSAGE][PASSED] - Set alert text 'Hello World!' successfully
+
+2566-11-10 15:33:09 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2566-11-10 15:33:09 - [MESSAGE][PASSED] - Alert accepted]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dialogue boxes/Browser based modal" time="16.856" classname="Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dialogue boxes/Browser based modal" status="PASSED">
+         <system-out><![CDATA[2566-11-10 15:33:09 - [TEST_CASE][PASSED] - Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dialogue boxes/Browser based modal: Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dialogue boxes/Browser based modal
+
+2566-11-10 15:33:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-10 15:33:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2566-11-10 15:33:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-10 15:33:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-10 15:33:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-10 15:33:12 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/upload"): Navigate to 'https://the-internet.herokuapp.com/upload' successfully
+
+2566-11-10 15:33:15 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/upload' successfully
+
+2566-11-10 15:33:15 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_The Internet/input_File Uploader_file"), "C:\Users\Admin\Downloads\Sleep Stage Classification with MNE and Scikit-learn in Python (Poster) (3).png"): File 'C:\Users\Admin\Downloads\Sleep Stage Classification with MNE and Scikit-learn in Python (Poster) (3).png' sent to object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_The Internet/input_File Uploader_file'
+
+2566-11-10 15:33:15 - [MESSAGE][PASSED] - File 'C:\Users\Admin\Downloads\Sleep Stage Classification with MNE and Scikit-learn in Python (Poster) (3).png' sent to object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_The Internet/input_File Uploader_file'
+
+2566-11-10 15:33:15 - [TEST_STEP][PASSED] - sleep(5): null
+
+2566-11-10 15:33:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_The Internet/input_File Uploader_file-submit")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_The Internet/input_File Uploader_file-submit' is clicked on
+
+2566-11-10 15:33:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_The Internet/input_File Uploader_file-submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dialogue boxes/Web based modal" time="64.901" classname="Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dialogue boxes/Web based modal" status="PASSED">
+         <system-out><![CDATA[2566-11-10 15:33:26 - [TEST_CASE][PASSED] - Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dialogue boxes/Web based modal: Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dialogue boxes/Web based modal
+
+2566-11-10 15:33:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-10 15:33:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2566-11-10 15:33:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-10 15:33:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-10 15:33:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-10 15:33:28 - [TEST_STEP][PASSED] - navigateToUrl("https://academy.katalon.com/courses/test-reusability/"): Navigate to 'https://academy.katalon.com/courses/test-reusability/' successfully
+
+2566-11-10 15:33:35 - [MESSAGE][PASSED] - Navigate to 'https://academy.katalon.com/courses/test-reusability/' successfully
+
+2566-11-10 15:33:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/Home_Course_Path"), "Courses"): Actual text and expected text of test object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/Home_Course_Path' are matched.
+
+2566-11-10 15:34:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/Home_Course_Path' are matched.
+
+2566-11-10 15:34:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/button_Enroll")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/button_Enroll' is clicked on
+
+2566-11-10 15:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/button_Enroll' is clicked on
+
+2566-11-10 15:34:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/p_Create a Katalon account"), "Create a Katalon account"): Actual text and expected text of test object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/p_Create a Katalon account' are matched.
+
+2566-11-10 15:34:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/p_Create a Katalon account' are matched.
+
+2566-11-10 15:34:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/a_Log In")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/a_Log In' is clicked on
+
+2566-11-10 15:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/a_Log In' is clicked on
+
+2566-11-10 15:34:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/p_Log in to Katalon Academy"), "Log in to Katalon Academy"): Actual text and expected text of test object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/p_Log in to Katalon Academy' are matched.
+
+2566-11-10 15:34:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/p_Log in to Katalon Academy' are matched.
+
+2566-11-10 15:34:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/input_Sign up now_username"), "c03151@g-able.com"): Text 'c03151@g-able.com' is set on object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/input_Sign up now_username'
+
+2566-11-10 15:34:25 - [MESSAGE][PASSED] - Text 'c03151@g-able.com' is set on object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/input_Sign up now_username'
+
+2566-11-10 15:34:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/input_Sign up now_password"), "SI0GGZob3zMh90awW9WaTA=="): Text ****** has been set on object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/input_Sign up now_password'
+
+2566-11-10 15:34:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/input_Sign up now_password'
+
+2566-11-10 15:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/input_Katalon Certification Program_skillat_294bf0")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/input_Katalon Certification Program_skillat_294bf0' is clicked on
+
+2566-11-10 15:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/input_Katalon Certification Program_skillat_294bf0' is clicked on
+
+2566-11-10 15:34:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/a_Replay Course"), "Replay Course"): Actual text and expected text of test object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/a_Replay Course' are matched.
+
+2566-11-10 15:34:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dialogue boxes/Page_Increasing Test Reusability for Better_946516/a_Replay Course' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dropdown/Hospital Appointment" time="12.846" classname="Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dropdown/Hospital Appointment" status="PASSED">
+         <system-out><![CDATA[2566-11-10 15:34:31 - [TEST_CASE][PASSED] - Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dropdown/Hospital Appointment: Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dropdown/Hospital Appointment
+
+2566-11-10 15:34:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2566-11-10 15:34:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2566-11-10 15:34:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2566-11-10 15:34:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2566-11-10 15:34:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2566-11-10 15:34:33 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2566-11-10 15:34:36 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2566-11-10 15:34:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2566-11-10 15:34:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2566-11-10 15:34:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username'
+
+2566-11-10 15:34:38 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Username_username'
+
+2566-11-10 15:34:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password'
+
+2566-11-10 15:34:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Password_password'
+
+2566-11-10 15:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2566-11-10 15:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2566-11-10 15:34:39 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/selectFacility"), "Hongkong CURA Healthcare Center", false): All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/selectFacility' 
+
+2566-11-10 15:34:40 - [MESSAGE][PASSED] - All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/selectFacility' 
+
+2566-11-10 15:34:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Apply_for_hospital_readmission_checkbox")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Apply_for_hospital_readmission_checkbox' is clicked on
+
+2566-11-10 15:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/Apply_for_hospital_readmission_checkbox' is clicked on
+
+2566-11-10 15:34:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2566-11-10 15:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2566-11-10 15:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/td_30")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/td_30' is clicked on
+
+2566-11-10 15:34:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/td_30' is clicked on
+
+2566-11-10 15:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2566-11-10 15:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2566-11-10 15:34:42 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/appointment.php#summary"): Navigate to 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary' successfully
+
+2566-11-10 15:34:42 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/appointment.php#summary' successfully
+
+2566-11-10 15:34:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/h2_Appointment Confirmation"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+2566-11-10 15:34:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Handling alerts dialogue boxes and dropdown/Handling dropdown/Page_CURA Healthcare Service/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+2566-11-10 15:34:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2566-11-10 15:34:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2566-11-10 15:32:59 - [TEST_SUITE][PASSED] - Handling-Alert-DialogBoxes-Dropdown: Test Cases/Handling Alerts dialogue boxes and dropdown/Handling dropdown/Hospital Appointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

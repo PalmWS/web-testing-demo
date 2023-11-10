@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Alert with OK</name>
+   <tag></tag>
+   <elementGuidId>e8c77810-9d14-4961-8cb3-e91e4e243578</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Alert with OK')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.analystic</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ccfa4729-244e-4272-b8b0-6debe667e109</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#OKTab</value>
+      <webElementGuid>78ccdcf4-4491-4acc-897f-b3e42d6efdf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tab</value>
+      <webElementGuid>e00380b1-b136-476f-a10a-7eaa38419657</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>analystic</value>
+      <webElementGuid>2d0937e1-a80a-4de7-a4e3-bfca2b7af684</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Alert with OK </value>
+      <webElementGuid>1cedab36-d395-4242-8a13-8954aa653df4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;container center&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;nav nav-tabs&quot;]/div[@class=&quot;tabpane pullleft&quot;]/ul[@class=&quot;nav nav-tabs nav-stacked&quot;]/li[@class=&quot;active&quot;]/a[@class=&quot;analystic&quot;]</value>
+      <webElementGuid>ad0fbaf9-23f0-48e7-a0cf-aac5b8dcd68a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Alert with OK')]</value>
+      <webElementGuid>0ef3e001-bf0f-4614-8cfb-3b82b61b0676</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Practice Site'])[1]/following::a[1]</value>
+      <webElementGuid>821d2239-6593-4281-8e9a-b99e8722fcca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ProgressBar'])[1]/following::a[2]</value>
+      <webElementGuid>d910d7a1-ada9-4a29-9056-f062f589e8ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alert with OK &amp; Cancel'])[1]/preceding::a[1]</value>
+      <webElementGuid>da1e39e8-58a9-411c-bc63-4bc430dad65c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alert with Textbox'])[1]/preceding::a[2]</value>
+      <webElementGuid>9197b718-ea9b-42fc-a654-aa70afef6661</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Alert with OK']/parent::*</value>
+      <webElementGuid>a14a1d2c-7b38-440c-b278-2c06fff49445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#OKTab')]</value>
+      <webElementGuid>d12488ad-14e2-405e-9b6c-0df62039ccc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/ul/li/a</value>
+      <webElementGuid>5a1f4fa9-c711-4439-a04f-439a009d70a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#OKTab' and (text() = 'Alert with OK ' or . = 'Alert with OK ')]</value>
+      <webElementGuid>66c0e7ef-a292-467e-a8e8-e25211a8601b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
