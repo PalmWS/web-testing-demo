@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test-XPATH,,,,2566-11-09 15:57:41,2566-11-09 15:58:04,22.174s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX00,,,,2566-11-09 15:57:42,2566-11-09 15:57:46,4.589s,FAILED
+"openBrowser("""")",,,,2566-11-09 15:57:42,2566-11-09 15:57:46,3.593s,PASSED
+"navigateToUrl(""D:\Katalon Training\Exercise - XParth\ex00.html"")",,,,2566-11-09 15:57:46,2566-11-09 15:57:46,0.157s,PASSED
+"setText(findTestObject(""Training-XPATH/EX00/Username""), ""TESTUSER01"")",,,,2566-11-09 15:57:46,2566-11-09 15:57:46,0.445s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX01,,,,2566-11-09 15:57:46,2566-11-09 15:57:50,3.395s,FAILED
+"openBrowser("""")",,,,2566-11-09 15:57:47,2566-11-09 15:57:49,2.497s,PASSED
+"navigateToUrl(""D:\Katalon Training\Exercise - XParth\ex01.html"")",,,,2566-11-09 15:57:49,2566-11-09 15:57:49,0.098s,PASSED
+"setText(findTestObject(""Training-XPATH/EX01/Username""), ""TESTUSER"")",,,,2566-11-09 15:57:49,2566-11-09 15:57:50,0.320s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX02,,,,2566-11-09 15:57:50,2566-11-09 15:57:53,3.095s,FAILED
+"openBrowser("""")",,,,2566-11-09 15:57:50,2566-11-09 15:57:52,2.324s,PASSED
+"navigateToUrl(""D:\Katalon Training\Exercise - XParth\ex02.html"")",,,,2566-11-09 15:57:52,2566-11-09 15:57:52,0.123s,PASSED
+"setText(findTestObject(""Training-XPATH/EX02/Username""), ""testuser"")",,,,2566-11-09 15:57:52,2566-11-09 15:57:53,0.369s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX03,,,,2566-11-09 15:57:53,2566-11-09 15:57:56,3.414s,FAILED
+"openBrowser("""")",,,,2566-11-09 15:57:53,2566-11-09 15:57:56,2.619s,PASSED
+"navigateToUrl(""D:\Katalon Training\Exercise - XParth\ex03.html"")",,,,2566-11-09 15:57:56,2566-11-09 15:57:56,0.111s,PASSED
+"setText(findTestObject(""Training-XPATH/EX03/username""), ""testuser"")",,,,2566-11-09 15:57:56,2566-11-09 15:57:56,0.347s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX04,,,,2566-11-09 15:57:56,2566-11-09 15:58:00,3.292s,FAILED
+"openBrowser("""")",,,,2566-11-09 15:57:57,2566-11-09 15:57:59,2.436s,PASSED
+"navigateToUrl(""D:\Katalon Training\Exercise - XParth\ex04.html"")",,,,2566-11-09 15:57:59,2566-11-09 15:57:59,0.126s,PASSED
+"setText(findTestObject(""Training-XPATH/EX04/User""), ""testuser"")",,,,2566-11-09 15:57:59,2566-11-09 15:57:59,0.389s,FAILED
+,,,,,,,
+Test Cases/Training-XPATH/XPATH-EX05,,,,2566-11-09 15:58:00,2566-11-09 15:58:04,4.074s,FAILED
+"openBrowser("""")",,,,2566-11-09 15:58:00,2566-11-09 15:58:03,2.886s,PASSED
+navigateToUrl(url_EX05),,,,2566-11-09 15:58:03,2566-11-09 15:58:03,0.168s,PASSED
+"setText(findTestObject(""Training-XPATH/EX05/username""), ""testuser"")",,,,2566-11-09 15:58:03,2566-11-09 15:58:04,0.569s,FAILED

@@ -12,20 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>659e7928-e4b3-4357-b2d6-47bfc8fa2f7b</testSuiteGuid>
    <testCaseLink>
-      <guid>4cc4a835-108a-45cb-9745-4236c1322e1d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web-Testing/Healthcare/Login</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8e665179-95a2-4105-be4e-5de3c1872c81</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web-Testing/Healthcare/MakeAppointment</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c6c77292-2182-4274-8289-ce70d1dba368</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -49,5 +35,19 @@
          <value></value>
          <variableId>b920cbe8-b275-40eb-a531-d1adce351ee7</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8e665179-95a2-4105-be4e-5de3c1872c81</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web-Testing/Healthcare/MakeAppointment</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4cc4a835-108a-45cb-9745-4236c1322e1d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web-Testing/Healthcare/Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

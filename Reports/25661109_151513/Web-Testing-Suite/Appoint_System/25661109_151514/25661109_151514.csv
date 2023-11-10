@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Appoint_System,,,,2566-11-09 15:15:54,2566-11-09 15:16:31,36.961s,FAILED
+,,,,,,,
+Test Cases/Web-Testing/Healthcare/Login,,,,2566-11-09 15:15:54,2566-11-09 15:16:07,12.843s,FAILED
+"openBrowser("""")",,,,2566-11-09 15:15:55,2566-11-09 15:15:58,3.401s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",,,,2566-11-09 15:15:58,2566-11-09 15:16:06,8.126s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",,,,2566-11-09 15:16:06,2566-11-09 15:16:07,0.874s,FAILED
+,,,,,,,
+Test Cases/Web-Testing/Healthcare/MakeAppointment,,,,2566-11-09 15:16:07,2566-11-09 15:16:25,17.575s,FAILED
+"openBrowser("""")",,,,2566-11-09 15:16:07,2566-11-09 15:16:10,2.721s,PASSED
+example.MyKeywords.AppLogin(),,,,2566-11-09 15:16:10,2566-11-09 15:16:25,14.341s,FAILED
+,,,,,,,
+Test Cases/Web-Testing/Healthcare/Login-with-variable,,,,2566-11-09 15:16:25,2566-11-09 15:16:31,6.222s,FAILED
+"openBrowser("""")",,,,2566-11-09 15:16:25,2566-11-09 15:16:27,2.529s,PASSED
+expected_title = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2566-11-09 15:16:27,2566-11-09 15:16:27,0.001s,PASSED
+navigateToUrl(base_url),,,,2566-11-09 15:16:27,2566-11-09 15:16:30,2.798s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",,,,2566-11-09 15:16:30,2566-11-09 15:16:31,0.566s,FAILED
